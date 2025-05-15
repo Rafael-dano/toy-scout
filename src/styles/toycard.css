@@ -1,0 +1,40 @@
+.toy-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+
+.toy-card:hover {
+  transform: scale(1.05);
+}
+
+.toy-image {
+  height: 180px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.buy-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.buy-button:hover {
+  background-color: #3b79c9;
+}
+
+.price {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
