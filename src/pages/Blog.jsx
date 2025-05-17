@@ -5,30 +5,111 @@ import { Link } from "react-router-dom"
 import "../styles/base.css";
 import "../styles/blog.css";
 import "../styles/layout.css";
-
+import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
     id: 1,
-    title: "Top 10 Educational Toys for Toddlers in 2025",
-    excerpt: "Discover the best educational toys that help toddlers learn while having fun. From shapes to STEM kits — here’s our top picks.",
-    date: "May 20, 2025",
+    title: "Top 10 Toys for Kids in 2025",
+    excerpt: "Discover the best Toys of 2025 that help kids learn while having fun. From Talking Books to Stomp Rockets — here’s our top picks.",
+    date: "May 31, 2025",
     slug: "/blog/top-toys-2025",
   },
   {
     id: 2,
     title: "Why STEM Toys Are the Future of Play",
     excerpt: "STEM toys are more than a trend. Learn how they help kids build real-world skills in coding, logic, and engineering.",
-    date: "May 7, 2025",
+    date: "June 1, 2025",
     slug: "/blog/stem-toys-future",
   },
   {
     id: 3,
-    title: "Outside Fun calls For Outdoor Toys",
-    excerpt: "Having fun in the sun? Check out these outdoor toys that are must buys. ",
-    date: "May 3, 2025",
+    title: "Outside Fun Calls For Outdoor Toys",
+    excerpt: "Having fun in the sun? Check out these Outdoor Toys that are Must haves. ",
+    date: "June 2, 2025",
     slug: "/blog/outdoor-toys", // or another actual article you have
   },
+  //{
+    //id: 4,
+    //title: "Top Educational Toys",
+   // excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
+    //date: "June 16, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 5,
+    //title: "10 Summer FUN Finds For Kids",
+   // excerpt: "Looking for The Best Toys, And Gear For Summer FUN. ",
+    //date: "June 19, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 6,
+    //title: "Forth of July Finds ",
+   // excerpt: "TOP JULY 4TH GEAR for Kids. ",
+    //date: "June 26, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 7,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "June 23, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+////////////////////////////
+  //{
+    //id: 8,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "July 7, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 9,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "July 9, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 10,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "July 14, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 11,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "July 21, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 12,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "July 28, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
+  //{
+    //id: 13,
+    //title: "Top 10 Bath Time Toys ",
+   // excerpt: "Here Are The Best Bath Time Toys For Kids . ",
+    //date: "aug 4, 2025",
+   // slug: "/blog/outdoor-toys", // or another actual article you have 
+   //how do i add another blog and link it to the blog.jsx
+  //},
 ]
 
 export default function Blog() {
