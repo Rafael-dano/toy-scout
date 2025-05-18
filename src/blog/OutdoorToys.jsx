@@ -8,11 +8,11 @@ const OutdoorToys = () => {
       title: 'VISTOP Non-Slip Splash Pad for Kids and Dog',
       image: 'https://m.media-amazon.com/images/I/61dH+kWpX8L._AC_SX679_.jpg',
       description: 'Thicken Sprinkler Pool Summer Outdoor Water Toys - Fun Backyard Fountain Play Mat for Baby Girls Boys Children or Pet Dog.',
-      price: '$39.99 on sale. normal $49.95',
+      price: '$49.95',
       link: 'https://a.co/d/5goI6uc',
     },
     {
-      title: 'VATOS 3-Tier Sand Water Table for Toddlers,',
+      title: 'VATOS 3-Tier Sand Water Table for Toddlers',
       image: 'https://m.media-amazon.com/images/I/71e4q+EbmhL._AC_SY300_SX300_.jpg',
       description: '36-Piece Kids Water Table Splash Pond Toys Set for Outside Outdoor Backyard, Toddlers Activity Sensory Water Play Table Summer Toys for Boy.',
       price: '$45.99',
@@ -21,8 +21,8 @@ const OutdoorToys = () => {
     {
       title: 'Stomp Rocket Jr. Glow',
       image: 'https://m.media-amazon.com/images/I/71ev0RHeBgL.__AC_SX300_SY300_QL70_FMwebp_.jpg',
-      description: 'Stomp Rocket Ultra LED Rocket Launcher ',
-      price: 'on sale $24.99 normally $34.99',
+      description: 'On Sale The Stomp Rocket Ultra LED Rocket Launcher will have your Little One Amazed.',
+      price: '$34.99',
       link: 'https://a.co/d/9IR59eI',
     },
     {

@@ -33,7 +33,7 @@ const educationalToys = [
     link: 'https://a.co/d/4gAn2tM',
   },
   {
-    title: 'KOKODI Talking Pen Books Sets,',
+    title: 'KOKODI Talking Pen Books Sets',
     image: 'https://m.media-amazon.com/images/I/811LNtOedEL._AC_SX679_.jpg',
     description: 'Interactive Audio Sound Books Kids Learning Electronic Toys for Boys Girls, Autism Sensory Games, Early Educational Gifts Birthday Gifts for Toddlers Kids.',
     price: '$49.99',
@@ -68,7 +68,7 @@ const educationalToys = [
     link: 'https://a.co/d/iyfRWbA',
   },
   {
-    title: 'LeapFrog Mr Pencils Scribble Write and Read, Green.',
+    title: 'LeapFrog Mr Pencils Scribble Write',
     image: 'https://m.media-amazon.com/images/I/71zFIMeY3EL._AC_SX679_.jpg',
     description: 'Mr. Pencil shows kids how to write uppercase and lowercase letters step-by-step, then transforms the letters into animated animals and more.',
     price: '$24.99',

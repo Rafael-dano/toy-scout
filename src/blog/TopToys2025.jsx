@@ -24,8 +24,8 @@ const toys = [
     link: "https://a.co/d/cFbfQya",
   },
   {
-    name: "Fat Brain Toys InnyBin Shape Learning Toys, Sensory Toys for Babies and Toddlers, Baby Toys Ages 10 Months",
-    description: "ENCOURAGES FINE MOTOR SKILLS: Babies and toddlers will enjoy pushing the chunky blocks of this baby shape sorter toy through the elastic bands, strengthening hand-eye coordination and grasping abilities.",
+    name: "Fat Brain Toys InnyBin Shape Learning Toys",
+    description: "Baby Toys Ages 10 Months, Sensory Toys for Babies and Toddlers. ENCOURAGES FINE MOTOR SKILLS: Babies and toddlers will enjoy pushing the chunky blocks of this baby shape sorter toy through the elastic bands, strengthening hand-eye coordination and grasping abilities.",
     image: "https://m.media-amazon.com/images/I/71oM0OHSxZL._SX522_.jpg",
     link: "https://a.co/d/18pmyQD",
   },
@@ -37,7 +37,7 @@ const toys = [
   },
   {
     name: "MindSprout Light-Up Space Twister",
-    description: "360° Sit Twist and Spin, Toddler Toys Age 2, 3, 4, 5, Birthday for Boy Girl, 18 Months +, LED Lights, Kids Toy Indoor or Outdoor for 2 Year Old ",
+    description: "360° Sit Twist and Spin, Toddler Toys Age 2, 3, 4, 5, Birthday for Boy Girl, 18 Months +, LED Lights, Kids Toy Indoor or Outdoor for 2 Year Old. ",
     image: "https://m.media-amazon.com/images/I/71O2msMDENL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     link: "https://a.co/d/6cuoK72",
   },

@@ -35,7 +35,7 @@ const stemToys = [
     link: "https://a.co/d/33OUuls",
   },
   {
-    name: "Magnetic Building Blocks for Toddlers 3+",
+    name: "Magnetic Building Blocks",
     description: "Montessori Toys, Magnet Cubes, Preschool STEM Educational Sensory Magnet Toys for Kids Ages 3-5 Year Old Boys and Girls.",
     image: "https://m.media-amazon.com/images/I/71+cxopG5DL._AC_SY300_SX300_.jpg",
     link: "https://a.co/d/1fvF9DW",
