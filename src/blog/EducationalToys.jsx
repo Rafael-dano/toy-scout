@@ -81,11 +81,48 @@ export default function EducationalToys() {
   return (
     <div className="p-6 max-w-6xl mx-auto">
       <Helmet>
-        <title>Top 10 Educational Toys for Kids</title>
+        <title>Top 10 Educational Toys for Kids | Toy Scout </title>
         <meta
           name="description"
           content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills."
         />
+         {/* Open Graph / Facebook */}
+         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:title" content="Top 10 Educational Toys for Kids | Toy Scout" />
+        <meta property="og:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
+        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:title" content="Top 10 Educational Toys for Kids | Toy Scout" />
+        <meta name="twitter:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
+        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+       {/* <script type="application/ld+json">
+    {
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Top 10 Educational Toys for Kids",
+      "description": "Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills.",
+      "image": "https://your-domain.com/path-to-blog-image.jpg", (blog post url)
+      "author": {
+        "@type": "Person",
+        "name": "Rafael Agredano"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Toy Scout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://your-domain.com/path-to-logo.png" (toy scout url)
+        }
+      },
+      "datePublished": "2025-06-16"
+    }
+          }
+        </script>*/}
       </Helmet>
       <h1 className="text-3xl font-bold mb-6">Top Educational Toys for Kids This Summer</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -94,7 +131,7 @@ export default function EducationalToys() {
             <img
               src={toy.image}
               alt={toy.title}
-              className="w-full h-48 object-contain mb-4"
+              className="w-full h-48 object-cover mb-4 rounded"
             />
             <h2 className="text-xl font-semibold mb-2">{toy.title}</h2>
             <p className="text-gray-700 mb-2">{toy.description}</p>

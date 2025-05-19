@@ -82,6 +82,43 @@ export default function TopToys2025() {
           name="description"
           content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025."
         />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:title" content="Top 10 Toys for Kids in 2025 | Toy Scout" />
+        <meta property="og:description" content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025." />
+        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:title" content="Top 10 Toys for Kids in 2025 | Toy Scout" />
+        <meta name="twitter:description" content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025." />
+        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+      {/* <script type="application/ld+json">
+    {
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Top 10 Toys for Kids in 2025",
+      "description": "Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025.",
+      "image": "https://your-domain.com/path-to-blog-image.jpg",(blog post url)
+      "author": {
+        "@type": "Person",
+        "name": "Rafael Agredano"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Toy Scout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://your-domain.com/path-to-logo.png" (this is toy scout url)
+        }
+      },
+      "datePublished": "2025-06-02"
+    }
+          }
+        </script>*/}
       </Helmet>
       <h1 className="text-4xl font-bold text-pink-500 mb-6">
         Top 10 Toys for Kids in 2025
@@ -96,9 +133,9 @@ export default function TopToys2025() {
         {toys.map((toy, index) => (
           <div key={index} className="border-b pb-6">
             <h2 className="text-2xl font-semibold text-blue-700 mb-2">{toy.name}</h2>
-            <img src={toy.image} alt={toy.name} className="w-full max-w-sm rounded shadow mb-4" />
-            <p className="mb-4">{toy.description}</p>
-            <p className="text-green-500 font-bold mb-2">{toy.text}</p>
+            <img src={toy.image} alt={toy.name} className="w-full h-48 object-cover mb-4 rounded" />
+            <p className="mb-4"><strong><bold>Description:   </bold></strong>{toy.description} </p>
+            <p className="text-green-500 font-bold mb-2"><strong><bold>Review:   </bold></strong>{toy.text}</p>
             <a
               href={toy.link}
               target="_blank"

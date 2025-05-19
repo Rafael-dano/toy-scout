@@ -1,9 +1,33 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../styles/toycard.css";
 
 export default function ToyCard({ toy }) {
   return (
     <div className="toy-card">
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: toy.title,
+            image: toy.image,
+            description: toy.description,
+            brand: {
+              "@type": "Brand",
+              name: "Toy Scout"
+            },
+            offers: {
+              "@type": "Offer",
+              url: toy.affiliateLink,
+              priceCurrency: "USD",
+              price: toy.priceRange.replace("$", "").split("–")[0],
+              availability: "https://schema.org/InStock"
+            }
+          })}
+        </script>
+      </Helmet>
+
       <img
         src={toy.image}
         alt={toy.title}
@@ -27,3 +51,4 @@ export default function ToyCard({ toy }) {
     </div>
   );
 }
+

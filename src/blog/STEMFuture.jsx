@@ -75,6 +75,43 @@ export default function STEMFuture() {
           name="description"
           content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime."
         />
+         {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:title" content="Why STEM Toys Are the Future of Play | Toy Scout" />
+        <meta property="og:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
+        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.yoursite.com/" />
+       <meta name="twitter:title" content="Why STEM Toys Are the Future of Play | Toy Scout" />
+        <meta name="twitter:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
+       <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+       {/* <script type="application/ld+json">
+    {
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Why STEM Toys Are the Future of Play",
+      "description": "STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime.",
+      "image": "https://your-domain.com/path-to-blog-image.jpg",(blog post url)
+      "author": {
+        "@type": "Person",
+        "name": "Rafael Agredano"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Toy Scout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://your-domain.com/path-to-logo.png" (toy scout url)
+        }
+      },
+      "datePublished": "2025-06-02"
+    }
+          }
+        </script>*/}
       </Helmet>
       <h1 className="text-4xl font-bold text-green-500 mb-6">
         Why STEM Toys Are the Future of Play
@@ -91,8 +128,8 @@ export default function STEMFuture() {
         {stemToys.map((toy, index) => (
           <div key={index} className="border-b pb-6">
             <h3 className="text-xl font-semibold mb-2">{toy.name}</h3>
-            <img src={toy.image} alt={toy.name} className="w-full max-w-md rounded shadow mb-4" />
-            <p className="mb-2">{toy.description}</p>
+            <img src={toy.image} alt={toy.name} className="w-full h-48 object-cover mb-4 rounded" />
+            <p className="text-green-500 font-bold mb-2">{toy.description}</p>
             <a
               href={toy.link}
               target="_blank"

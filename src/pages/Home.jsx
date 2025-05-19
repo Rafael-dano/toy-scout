@@ -5,6 +5,8 @@ import "../styles/home.css";
 import "../styles/layout.css";
 import { Link } from "react-router-dom";
 import mascotHero from "../assets/mascot-toys.png"; // reuse your header mascot image or a new one
+import { Helmet } from "react-helmet";
+
 
 export default function Home() {
   return (
@@ -18,10 +20,41 @@ export default function Home() {
           style={{ maxHeight: "360px" }}
         />
         <div className="text-center md:text-left">
-          <h1 className="text-4xl font-bold text-pink-500 mb-2">Welcome to Toy Scout!</h1>
-          <p className="text-gray-700 text-lg mb-4">
-            Find the coolest toys for your little adventurers
-          </p>
+            <Helmet>
+              <title>Top Kids Toys | Toy Scout</title>
+              <meta name="description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love. Trusted by parents." />
+                {/* Open Graph / Facebook */}
+                  <meta property="og:type" content="website" />
+                  <meta property="og:url" content="https://www.yoursite.com/" />
+                  <meta property="og:title" content="Top Kids Toys | Toy Scout" />
+                  <meta property="og:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
+                  <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+                {/* Twitter Card */}
+                  <meta name="twitter:card" content="summary_large_image" />
+                  <meta name="twitter:url" content="https://www.yoursite.com/" />
+                  <meta name="twitter:title" content="Top Kids Toys | Toy Scout" />
+                  <meta name="twitter:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
+                  <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+                  {/*<script type="application/ld+json">
+                    {
+                    {
+                      "@context": "https://schema.org",
+                      "@type": "Organization",
+                      "name": "Toy Scout",
+                      "url": "https://your-domain.com",
+                      "logo": "https://your-domain.com/path-to-your-logo.png",
+                      "sameAs": [
+                      "https://facebook.com/yourpage",
+                      "https://twitter.com/yourhandle"
+                      ]
+                    }
+                    }
+                  </script>*/}
+            </Helmet>
+            <h1 className="text-4xl font-bold text-pink-500 mb-2">Welcome to Toy Scout!</h1>
+            <p className="text-gray-700 text-lg mb-4">
+              Find the coolest toys for your little adventurers
+            </p>
           <div className="space-x-4">
             <p><Link to="/toys" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Browse Toys</Link></p>
             <p><Link to="/blog" className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">Read Blog</Link></p>
@@ -38,7 +71,7 @@ export default function Home() {
             <img
               src="https://m.media-amazon.com/images/I/71x6tEsjSaL._AC_SX679_.jpg"
               alt="Toy"
-              className="rounded mb-2 w-24 mx-auto"
+              className="rounded mb-2 w-24 mx-auto "
             />
             <h3 className="font-semibold text-lg text-center">ITS SUMMER DONT FORGET THEIR LIFEJACKET </h3>
             <p className="text-gray-500 text-center">$30 - $50</p>
@@ -84,7 +117,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="p-4 border rounded shadow">
             <h3 className="text-xl font-semibold">Top STEM Toys for 2025</h3>
-            <p className="text-sm text-gray-500 mb-2">May 10, 2025</p>
+            <p className="text-sm text-gray-500 mb-2">june 1, 2025</p>
             <p className="text-gray-700 mb-2">Check out the best educational toys for curious young minds...</p>
             <Link to="/blog" className="text-blue-500 hover:underline text-sm">Read More</Link>
           </div>

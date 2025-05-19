@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet"
 
 // find new products that fit niche then change them out
 
@@ -79,6 +80,49 @@ const OutdoorToys = () => {
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
+      <Helmet>
+        <title>Top 10 Outdoor Toys for Kids | Toy Scout</title>
+        <meta
+          name="description"
+          content="Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys."
+        />
+         {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:title" content="Top 10 Outdoor Toys for Kids | Toy Scout" />
+        <meta property="og:description" content="Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys." />
+        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:title" content="Top 10 Outdoor Toys for Kids | Toy Scout" />
+        <meta name="twitter:description" content="Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys." />
+        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+          {/* <script type="application/ld+json">
+    {
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Top 10 Outdoor Toys for Kids",
+      "description": "Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys.",
+      "image": "https://your-domain.com/path-to-blog-image.jpg",(blog post url)
+      "author": {
+        "@type": "Person",
+        "name": "Rafael Agredano"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Toy Scout",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://your-domain.com/path-to-logo.png" (toy scout url)
+      },
+      "datePublished": "2025-06-02"
+    }
+          }
+        </script>*/}
+      </Helmet>
       <h1 className="text-3xl font-bold mb-6">Top 10 Outdoor Toys for Kids</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product, index) => (

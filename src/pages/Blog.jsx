@@ -27,23 +27,21 @@ const blogPosts = [
     title: "Outside Fun Calls For Outdoor Toys",
     excerpt: "Having fun in the sun? Check out these Outdoor Toys that are Must haves. ",
     date: "June 2, 2025",
-    slug: "/blog/outdoor-toys", // or another actual article you have
+    slug: "/blog/outdoor-toys",
   },
   //{
     //id: 4,
     //title: "Top Educational Toys",
-   // excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
+    //excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
     //date: "June 16, 2025",
-   // slug: "/blog/outdoor-toys", // or another actual article you have 
-   //how do i add another blog and link it to the blog.jsx
+    //slug: "/blog/educational-toys", // or another actual article you have 
   //},
   //{
     //id: 5,
     //title: "10 Summer FUN Finds For Kids",
    // excerpt: "Looking for The Best Toys, And Gear For Summer FUN. ",
     //date: "June 19, 2025",
-   // slug: "/blog/outdoor-toys", // or another actual article you have 
-   //how do i add another blog and link it to the blog.jsx
+   // slug: "/blog/[change to match with title]", // or another actual article you have 
   //},
   //{
     //id: 6,
@@ -118,8 +116,21 @@ export default function Blog() {
       <Helmet>
         <title>Blog | Toy Scout's Toys</title>
         <meta name="description" content="Tips, reviews, and guides on kids toys and parenting." />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:title" content="Blog | Toy Scout's Toys" />
+        <meta property="og:description" content="Tips, reviews, and guides on kids toys and parenting." />
+        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:title" content="Blog | Toy Scout's Toys" />
+        <meta name="twitter:description" content="Tips, reviews, and guides on kids toys and parenting." />
+        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
       </Helmet>
-      <h1 className="text-4xl font-bold mb-6 text-pink-500">Our Toy Blog</h1>
+      <h1 className="text-4xl font-bold mb-6 text-pink-500">Our Toy Blog of 2025</h1>
       <p className="text-gray-600 mb-10">Read expert toy reviews, buying guides, and parenting tips.</p>
       <div className="space-y-6">
         {blogPosts.map((post) => (
