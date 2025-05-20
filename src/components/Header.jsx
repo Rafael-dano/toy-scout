@@ -11,7 +11,7 @@ export default function Header() {
             className="h-12 md:h-16 mr-6"
             style={{ width: '140px', maxHeight: '220px'}}
           />
-          <h1 className="text-3xl font-bold ml-10">Toy Scout</h1>
+          <h1 className="text-3xl font-bold ml-10">My Toy Scout</h1>
          </div>
       </header>
     )

@@ -114,19 +114,19 @@ export default function Blog() {
   return (
     <div className="p-8 max-w-4xl mx-auto">
       <Helmet>
-        <title>Blog | Toy Scout's Toys</title>
+        <title>Blog | My Toy Scout's Toys</title>
         <meta name="description" content="Tips, reviews, and guides on kids toys and parenting." />
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.yoursite.com/" />
-        <meta property="og:title" content="Blog | Toy Scout's Toys" />
+        <meta property="og:title" content="Blog | My Toy Scout's Toys" />
         <meta property="og:description" content="Tips, reviews, and guides on kids toys and parenting." />
         <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.yoursite.com/" />
-        <meta name="twitter:title" content="Blog | Toy Scout's Toys" />
+        <meta name="twitter:title" content="Blog | My Toy Scout's Toys" />
         <meta name="twitter:description" content="Tips, reviews, and guides on kids toys and parenting." />
         <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
       </Helmet>

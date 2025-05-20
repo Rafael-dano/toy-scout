@@ -21,18 +21,18 @@ export default function Home() {
         />
         <div className="text-center md:text-left">
             <Helmet>
-              <title>Top Kids Toys | Toy Scout</title>
+              <title>Top Kids Toys | My Toy Scout</title>
               <meta name="description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love. Trusted by parents." />
                 {/* Open Graph / Facebook */}
                   <meta property="og:type" content="website" />
                   <meta property="og:url" content="https://www.yoursite.com/" />
-                  <meta property="og:title" content="Top Kids Toys | Toy Scout" />
+                  <meta property="og:title" content="Top Kids Toys | My Toy Scout" />
                   <meta property="og:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
                   <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
                 {/* Twitter Card */}
                   <meta name="twitter:card" content="summary_large_image" />
                   <meta name="twitter:url" content="https://www.yoursite.com/" />
-                  <meta name="twitter:title" content="Top Kids Toys | Toy Scout" />
+                  <meta name="twitter:title" content="Top Kids Toys | My Toy Scout" />
                   <meta name="twitter:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
                   <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
                   {/*<script type="application/ld+json">
@@ -40,7 +40,7 @@ export default function Home() {
                     {
                       "@context": "https://schema.org",
                       "@type": "Organization",
-                      "name": "Toy Scout",
+                      "name": "My Toy Scout",
                       "url": "https://your-domain.com",
                       "logo": "https://your-domain.com/path-to-your-logo.png",
                       "sameAs": [
@@ -51,7 +51,7 @@ export default function Home() {
                     }
                   </script>*/}
             </Helmet>
-            <h1 className="text-4xl font-bold text-pink-500 mb-2">Welcome to Toy Scout!</h1>
+            <h1 className="text-4xl font-bold text-pink-500 mb-2">Welcome to My Toy Scout!</h1>
             <p className="text-gray-700 text-lg mb-4">
               Find the coolest toys for your little adventurers
             </p>
@@ -117,7 +117,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="p-4 border rounded shadow">
             <h3 className="text-xl font-semibold">Top STEM Toys for 2025</h3>
-            <p className="text-sm text-gray-500 mb-2">june 1, 2025</p>
+            <p className="text-sm text-gray-500 mb-2">June 1, 2025</p>
             <p className="text-gray-700 mb-2">Check out the best educational toys for curious young minds...</p>
             <Link to="/blog" className="text-blue-500 hover:underline text-sm">Read More</Link>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
 
       {/* 🟠 WHY TRUST TOY SCOUT? */}
       <section className="bg-white border rounded-xl p-6 shadow">
-        <h2 className="text-xl font-bold mb-4 text-green-600">Why Trust Toy Scout?</h2>
+        <h2 className="text-xl font-bold mb-4 text-green-600">Why Trust My Toy Scout?</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>Curated picks by real toy lovers</li>
           <li>Age-appropriate and parent-approved</li>
@@ -136,7 +136,7 @@ export default function Home() {
 
       {/* ⚪️ EMAIL SIGNUP */}
       <section className="bg-pink-100 rounded-xl p-6 text-center shadow">
-        <h2 className="text-2xl font-bold mb-2">Join the Toy Scout Club!</h2>
+        <h2 className="text-2xl font-bold mb-2">Join the My Toy Scout Club!</h2>
         <p className="text-gray-700 mb-4">Get top toy picks, deals, and updates delivered to your inbox.</p>
         <form className="flex flex-col sm:flex-row justify-center gap-4">
           <input

@@ -77,7 +77,7 @@ export default function TopToys2025() {
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <Helmet>
-        <title>Top 10 Toys for Kids in 2025 | Toy Scout</title>
+        <title>Top 10 Toys for Kids in 2025 | My Toy Scout</title>
         <meta
           name="description"
           content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025."
@@ -85,14 +85,14 @@ export default function TopToys2025() {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.yoursite.com/" />
-        <meta property="og:title" content="Top 10 Toys for Kids in 2025 | Toy Scout" />
+        <meta property="og:title" content="Top 10 Toys for Kids in 2025 | My Toy Scout" />
         <meta property="og:description" content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025." />
         <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.yoursite.com/" />
-        <meta name="twitter:title" content="Top 10 Toys for Kids in 2025 | Toy Scout" />
+        <meta name="twitter:title" content="Top 10 Toys for Kids in 2025 | My Toy Scout" />
         <meta name="twitter:description" content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025." />
         <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
       {/* <script type="application/ld+json">
@@ -109,7 +109,7 @@ export default function TopToys2025() {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Toy Scout",
+        "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
           "url": "https://your-domain.com/path-to-logo.png" (this is toy scout url)

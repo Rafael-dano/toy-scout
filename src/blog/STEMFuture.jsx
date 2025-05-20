@@ -70,7 +70,7 @@ export default function STEMFuture() {
   return (
     <div className="p-6 max-w-5xl mx-auto">
       <Helmet>
-        <title>Why STEM Toys Are the Future of Play | Toy Scout</title>
+        <title>Why STEM Toys Are the Future of Play | My Toy Scout</title>
         <meta
           name="description"
           content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime."
@@ -78,14 +78,14 @@ export default function STEMFuture() {
          {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.yoursite.com/" />
-        <meta property="og:title" content="Why STEM Toys Are the Future of Play | Toy Scout" />
+        <meta property="og:title" content="Why STEM Toys Are the Future of Play | My Toy Scout" />
         <meta property="og:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
         <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://www.yoursite.com/" />
-       <meta name="twitter:title" content="Why STEM Toys Are the Future of Play | Toy Scout" />
+       <meta name="twitter:title" content="Why STEM Toys Are the Future of Play | My Toy Scout" />
         <meta name="twitter:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
        {/* <script type="application/ld+json">
@@ -102,7 +102,7 @@ export default function STEMFuture() {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Toy Scout",
+        "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
           "url": "https://your-domain.com/path-to-logo.png" (toy scout url)

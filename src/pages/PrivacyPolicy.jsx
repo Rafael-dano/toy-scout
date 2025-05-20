@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           We use cookies and analytics tools (like Google Analytics) to understand how you use our site.
         </p>
         <h2 className="text-xl font-semibold mt-4 mb-2">Contact</h2>
-        <p>If you have any questions, email us at rafaelagredano99@gmail.com.</p>
+        <p>If you have any questions, email us at mytoyscout@gmail.com</p>
       </div>
     )
   }
