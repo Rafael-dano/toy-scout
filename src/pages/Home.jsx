@@ -131,11 +131,14 @@ export default function Home() {
           <li>Curated picks by real toy lovers</li>
           <li>Age-appropriate and parent-approved</li>
           <li>Real-world reviews and hands-on insights</li>
+          <li>I'm just like YOU, I just decided to make a website that review toys</li>
+          <li>I can teach you how to create a site just like this</li>
+          <li>Email Me At mytoyscout@gmail.com</li>
         </ul>
       </section>
 
       {/* ⚪️ EMAIL SIGNUP */}
-      <section className="bg-pink-100 rounded-xl p-6 text-center shadow">
+      {/*<section className="bg-pink-100 rounded-xl p-6 text-center shadow">
         <h2 className="text-2xl font-bold mb-2">Join the My Toy Scout Club!</h2>
         <p className="text-gray-700 mb-4">Get top toy picks, deals, and updates delivered to your inbox.</p>
         <form className="flex flex-col sm:flex-row justify-center gap-4">
@@ -148,7 +151,7 @@ export default function Home() {
             Sign Up
           </button>
         </form>
-      </section>
+      </section>*/}
     </div>
   );
 }
