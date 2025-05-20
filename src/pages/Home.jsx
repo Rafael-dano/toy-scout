@@ -25,24 +25,24 @@ export default function Home() {
               <meta name="description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love. Trusted by parents." />
                 {/* Open Graph / Facebook */}
                   <meta property="og:type" content="website" />
-                  <meta property="og:url" content="https://www.yoursite.com/" />
+                  <meta property="og:url" content="https://mytoyscout.netlify.app/ " />
                   <meta property="og:title" content="Top Kids Toys | My Toy Scout" />
                   <meta property="og:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
-                  <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+                  <meta property="og:image" content="http://localhost:5173/src/assets/mascot-toys.png" />
                 {/* Twitter Card */}
                   <meta name="twitter:card" content="summary_large_image" />
-                  <meta name="twitter:url" content="https://www.yoursite.com/" />
+                  <meta name="twitter:url" content="https://mytoyscout.netlify.app/" />
                   <meta name="twitter:title" content="Top Kids Toys | My Toy Scout" />
                   <meta name="twitter:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
-                  <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+                  <meta name="twitter:image" content="http://localhost:5173/src/assets/mascot-toys.png" />
                   {/*<script type="application/ld+json">
                     {
                     {
                       "@context": "https://schema.org",
                       "@type": "Organization",
                       "name": "My Toy Scout",
-                      "url": "https://your-domain.com",
-                      "logo": "https://your-domain.com/path-to-your-logo.png",
+                      "url": "https://mytoyscout.netlify.app/",
+                      "logo": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",
                       "sameAs": [
                       "https://facebook.com/yourpage",
                       "https://twitter.com/yourhandle"

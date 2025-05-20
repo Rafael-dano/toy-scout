@@ -3,28 +3,27 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.toyscout.com/</loc>
+    <loc>https://mytoyscout.netlify.app/</loc>
   </url>
   <url>
-    <loc>https://www.toyscout.com/toys</loc>
+    <loc>https://mytoyscout.netlify.app/toys</loc>
   </url>
   <url>
-    <loc>https://www.toyscout.com/about</loc>
+    <loc>https://mytoyscout.netlify.app/about</loc>
   </url>
   <url>
-    <loc>https://www.toyscout.com/blog</loc>
+    <loc>https://mytoyscout.netlify.app/blog</loc>
   </url>
   <url>
-    <loc>https://www.toyscout.com/blog/education</loc>
+    <loc>https://mytoyscout.netlify.app/blog/top-toys-2025</loc>
   </url>
   <url>
-    <loc>https://www.toyscout.com/blog/top10</loc>
+    <loc>https://mytoyscout.netlify.app/blog/stem-toys-future</loc>
   </url>
   <url>
-    <loc>https://www.toyscout.com/blog/stem</loc>
-  </url>
-  <url>
-    <loc>https://www.toyscout.com/blog/outdoor</loc>
+    <loc>https://mytoyscout.netlify.app/blog/outdoor-toys</loc>
   </url>
 
+
 </urlset>
+

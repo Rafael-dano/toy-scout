@@ -12,17 +12,17 @@ const Toys = () => {
         <meta name="description" content="Browse top-rated toys by category: outdoor, educational, STEM, and more. Find fun, safe toys for every age and interest." />
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.yoursite.com/" />
+      <meta property="og:url" content="https://mytoyscout.netlify.app/toys" />
       <meta property="og:title" content="Shop Outdoor & Educational Toys | My Toy Scout" />
      <meta property="og:description" content="Browse top-rated toys by category: outdoor, educational, STEM, and more. Find fun, safe toys for every age and interest." />
-      <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+      <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:url" content="https://www.yoursite.com/" />
+      <meta name="twitter:url" content="https://mytoyscout.netlify.app/toys"/>
       <meta name="twitter:title" content="Shop Outdoor & Educational Toys | My Toy Scout" />
       <meta name="twitter:description" content="Browse top-rated toys by category: outdoor, educational, STEM, and more. Find fun, safe toys for every age and interest." />
-      <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+      <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
       </Helmet>
       <h1>All Toys</h1>
       <div className="toy-grid">

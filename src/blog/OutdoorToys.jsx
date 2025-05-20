@@ -88,17 +88,17 @@ const OutdoorToys = () => {
         />
          {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/outdoor-toys" />
         <meta property="og:title" content="Top 10 Outdoor Toys for Kids | My Toy Scout" />
         <meta property="og:description" content="Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys." />
-        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+        <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/outdoor-toys" />
         <meta name="twitter:title" content="Top 10 Outdoor Toys for Kids | My Toy Scout" />
         <meta name="twitter:description" content="Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys." />
-        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+        <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
           {/* <script type="application/ld+json">
     {
     {
@@ -106,7 +106,7 @@ const OutdoorToys = () => {
       "@type": "BlogPosting",
       "headline": "Top 10 Outdoor Toys for Kids",
       "description": "Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys.",
-      "image": "https://your-domain.com/path-to-blog-image.jpg",(blog post url)
+      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",(blog post url)
       "author": {
         "@type": "Person",
         "name": "Rafael Agredano"
@@ -116,7 +116,7 @@ const OutdoorToys = () => {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://your-domain.com/path-to-logo.png" (toy scout url)
+          "url": "https://mytoyscout.netlify.app/blog/outdoor-toys" (toy scout url)
       },
       "datePublished": "2025-06-02"
     }

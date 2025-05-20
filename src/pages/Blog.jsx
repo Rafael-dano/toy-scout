@@ -118,17 +118,17 @@ export default function Blog() {
         <meta name="description" content="Tips, reviews, and guides on kids toys and parenting." />
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/blog" />
         <meta property="og:title" content="Blog | My Toy Scout's Toys" />
         <meta property="og:description" content="Tips, reviews, and guides on kids toys and parenting." />
-        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+        <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog"/>
         <meta name="twitter:title" content="Blog | My Toy Scout's Toys" />
         <meta name="twitter:description" content="Tips, reviews, and guides on kids toys and parenting." />
-        <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+        <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
       </Helmet>
       <h1 className="text-4xl font-bold mb-6 text-pink-500">Our Toy Blog of 2025</h1>
       <p className="text-gray-600 mb-10">Read expert toy reviews, buying guides, and parenting tips.</p>

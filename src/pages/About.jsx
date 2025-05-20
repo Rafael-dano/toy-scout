@@ -11,17 +11,17 @@ const About = () => {
         <meta name="description" content="Learn about My Toy Scout — your trusted guide for finding the best kids toys. We research and recommend top products parents love." />
           {/* Open Graph / Facebook */}
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.yoursite.com/" />
+          <meta property="og:url" content="https://mytoyscout.netlify.app/about" />
           <meta property="og:title" content="About Toy Scout | My Toy Scout | Curated Toys for Kids" />
           <meta property="og:description" content="Learn about My Toy Scout — your trusted guide for finding the best kids toys. We research and recommend top products parents love." />
-          <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+          <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-about-CCV-EGdh.png" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://www.yoursite.com/" />
+          <meta name="twitter:url" content="https://mytoyscout.netlify.app/about" />
           <meta name="twitter:title" content="About Toy Scout | My Toy Scout | Curated Toys for Kids" />
           <meta name="twitter:description" content="Learn about My Toy Scout — your trusted guide for finding the best kids toys. We research and recommend top products parents love." />
-          <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+          <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-about-CCV-EGdh.png" />
       </Helmet>
       <h1>About My Toy Scout</h1>
       <section className="p-4">

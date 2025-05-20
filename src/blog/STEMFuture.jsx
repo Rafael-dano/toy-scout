@@ -77,17 +77,17 @@ export default function STEMFuture() {
         />
          {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.yoursite.com/" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/stem-toys-future" />
         <meta property="og:title" content="Why STEM Toys Are the Future of Play | My Toy Scout" />
         <meta property="og:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
-        <meta property="og:image" content="https://www.yoursite.com/images/og-image.jpg" />
+        <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://www.yoursite.com/" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/stem-toys-future" />
        <meta name="twitter:title" content="Why STEM Toys Are the Future of Play | My Toy Scout" />
         <meta name="twitter:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
-       <meta name="twitter:image" content="https://www.yoursite.com/images/og-image.jpg" />
+       <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
        {/* <script type="application/ld+json">
     {
     {
@@ -95,7 +95,7 @@ export default function STEMFuture() {
       "@type": "BlogPosting",
       "headline": "Why STEM Toys Are the Future of Play",
       "description": "STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime.",
-      "image": "https://your-domain.com/path-to-blog-image.jpg",(blog post url)
+      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",(blog post url)
       "author": {
         "@type": "Person",
         "name": "Rafael Agredano"
@@ -105,7 +105,7 @@ export default function STEMFuture() {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://your-domain.com/path-to-logo.png" (toy scout url)
+          "url": "https://mytoyscout.netlify.app/blog/stem-toys-future" (toy scout url)
         }
       },
       "datePublished": "2025-06-02"
