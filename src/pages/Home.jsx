@@ -35,9 +35,8 @@ export default function Home() {
                   <meta name="twitter:title" content="Top Kids Toys | My Toy Scout" />
                   <meta name="twitter:description" content="Discover the best kids toys! Handpicked educational, outdoor, and STEM toys your kids will love." />
                   <meta name="twitter:image" content="http://localhost:5173/src/assets/mascot-toys.png" />
-                  {/*<script type="application/ld+json">
-                    {
-                    {
+                  <script type="application/ld+json">
+                    {JSON.stringify({
                       "@context": "https://schema.org",
                       "@type": "Organization",
                       "name": "My Toy Scout",
@@ -48,8 +47,8 @@ export default function Home() {
                       "https://twitter.com/yourhandle"
                       ]
                     }
-                    }
-                  </script>*/}
+                  )}
+                  </script>
             </Helmet>
             <h1 className="text-4xl font-bold text-pink-500 mb-2">Welcome to My Toy Scout!</h1>
             <p className="text-gray-700 text-lg mb-4">

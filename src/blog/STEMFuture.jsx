@@ -88,14 +88,13 @@ export default function STEMFuture() {
        <meta name="twitter:title" content="Why STEM Toys Are the Future of Play | My Toy Scout" />
         <meta name="twitter:description" content="STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime." />
        <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
-       {/* <script type="application/ld+json">
-    {
-    {
+        <script type="application/ld+json">
+    {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "Why STEM Toys Are the Future of Play",
       "description": "STEM toys help kids learn real-world skills like coding, logic, and problem-solving. Discover why they're shaping the future of playtime.",
-      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",(blog post url)
+      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",
       "author": {
         "@type": "Person",
         "name": "Rafael Agredano"
@@ -105,13 +104,13 @@ export default function STEMFuture() {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/blog/stem-toys-future" (toy scout url)
+          "url": "https://mytoyscout.netlify.app/blog/stem-toys-future" 
         }
       },
       "datePublished": "2025-06-02"
     }
-          }
-        </script>*/}
+       )}
+        </script>
       </Helmet>
       <h1 className="text-4xl font-bold text-green-500 mb-6">
         Why STEM Toys Are the Future of Play

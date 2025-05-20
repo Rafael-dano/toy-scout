@@ -99,14 +99,13 @@ const OutdoorToys = () => {
         <meta name="twitter:title" content="Top 10 Outdoor Toys for Kids | My Toy Scout" />
         <meta name="twitter:description" content="Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
-          {/* <script type="application/ld+json">
-    {
-    {
+           <script type="application/ld+json">
+    {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "Top 10 Outdoor Toys for Kids",
       "description": "Having fun in the sun? Check out these Outdoor Toys that are Must haves. Outdoor Activites Toys.",
-      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",(blog post url)
+      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",
       "author": {
         "@type": "Person",
         "name": "Rafael Agredano"
@@ -116,12 +115,12 @@ const OutdoorToys = () => {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/blog/outdoor-toys" (toy scout url)
+          "url": "https://mytoyscout.netlify.app/blog/outdoor-toys"
       },
       "datePublished": "2025-06-02"
     }
-          }
-        </script>*/}
+          })}
+        </script>
       </Helmet>
       <h1 className="text-3xl font-bold mb-6">Top 10 Outdoor Toys for Kids</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -95,30 +95,29 @@ export default function TopToys2025() {
         <meta name="twitter:title" content="Top 10 Toys for Kids in 2025 | My Toy Scout" />
         <meta name="twitter:description" content="Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
-      {/* <script type="application/ld+json">
-    {
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Top 10 Toys for Kids in 2025",
-      "description": "Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025.",
-      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",(blog post url)
-      "author": {
-        "@type": "Person",
-        "name": "Rafael Agredano"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "My Toy Scout",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "http://mytoyscout.netlify.app/blog/top-toys-2025" (this is toy scout url)
-        }
-      },
-      "datePublished": "2025-06-02"
-    }
-          }
-        </script>*/}
+        <script type="application/ld+json">
+          {JSON.stringify({
+             "@context": "https://schema.org",
+             "@type": "BlogPosting",
+             "headline": "Top 10 Toys for Kids in 2025",
+             "description": "Looking for the best toys that will have your kids growing their skills while having tons of fun.? Here's our expert-approved list of the top 10 toys for learning and fun in 2025.",
+              "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",
+              "author": {
+               "@type": "Person",
+                "name": "Rafael Agredano"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "My Toy Scout",
+                "logo": {
+                 "@type": "ImageObject",
+                 "url": "http://mytoyscout.netlify.app/blog/top-toys-2025"
+                }
+              },
+             "datePublished": "2025-06-02"
+            }
+            )}
+            </script>
       </Helmet>
       <h1 className="text-4xl font-bold text-pink-500 mb-6">
         Top 10 Toys for Kids in 2025

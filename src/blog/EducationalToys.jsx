@@ -88,25 +88,24 @@ export default function EducationalToys() {
         />
          {/* Open Graph / Facebook */}
          <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://mytoyscout.com" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/" />
         <meta property="og:title" content="Top 10 Educational Toys for Kids | My Toy Scout" />
         <meta property="og:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="http://mytoyscout.com" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/" />
         <meta name="twitter:title" content="Top 10 Educational Toys for Kids | My Toy Scout" />
         <meta name="twitter:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
-       {/* <script type="application/ld+json">
-    {
-    {
+        <script type="application/ld+json">
+    {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "Top 10 Educational Toys for Kids",
       "description": "Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills.",
-      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png", (blog post url)
+      "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png", 
       "author": {
         "@type": "Person",
         "name": "Rafael Agredano"
@@ -116,13 +115,12 @@ export default function EducationalToys() {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "http://mytoyscout.com" (toy scout url)
+          "url": "https://mytoyscout.netlify.app/" 
         }
       },
       "datePublished": "2025-06-16"
-    }
-          }
-        </script>*/}
+       })}
+        </script>
       </Helmet>
       <h1 className="text-3xl font-bold mb-6">Top Educational Toys for Kids This Summer</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
