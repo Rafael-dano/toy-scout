@@ -81,7 +81,7 @@ export default function EducationalToys() {
   return (
     <div className="p-6 max-w-6xl mx-auto">
       <Helmet>
-        <title>Top 10 Educational Toys for Kids | My Toy Scout </title>
+        <title>Top 10 Educational Toys for Summer | My Toy Scout </title>
         <meta
           name="description"
           content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills."
@@ -89,21 +89,21 @@ export default function EducationalToys() {
          {/* Open Graph / Facebook */}
          <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mytoyscout.netlify.app/" />
-        <meta property="og:title" content="Top 10 Educational Toys for Kids | My Toy Scout" />
+        <meta property="og:title" content="Top 10 Educational Toys for Summer | My Toy Scout" />
         <meta property="og:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://mytoyscout.netlify.app/" />
-        <meta name="twitter:title" content="Top 10 Educational Toys for Kids | My Toy Scout" />
+        <meta name="twitter:title" content="Top 10 Educational Toys for Summer | My Toy Scout" />
         <meta name="twitter:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
         <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
-      "headline": "Top 10 Educational Toys for Kids",
+      "headline": "Top 10 Educational Toys for Summer",
       "description": "Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills.",
       "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png", 
       "author": {

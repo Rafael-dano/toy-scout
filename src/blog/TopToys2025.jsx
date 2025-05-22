@@ -8,7 +8,6 @@ const toys = [
     name: "LeapFrog Learning Friends 100 Words and 100 Animals Book Set",
     description: "Two interactive books each have six double-sided pages; touch-sensitive pictures play vocabulary words, sounds and music",
     image: "https://m.media-amazon.com/images/I/71lGnfcd3SL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-    text: "The LeapFrog Learning Books are so much fun and easy to use. Your child will be entertained while learning. A great buy for 2025.",
     link: "https://a.co/d/5OBZWD5",
   },
   {
@@ -134,7 +133,6 @@ export default function TopToys2025() {
             <h2 className="text-2xl font-semibold text-blue-700 mb-2">{toy.name}</h2>
             <img src={toy.image} alt={toy.name} className="w-full h-48 object-cover mb-4 rounded" />
             <p className="mb-4"><strong><bold>Description:   </bold></strong>{toy.description} </p>
-            <p className="text-green-500 font-bold mb-2"><strong><bold>Review:   </bold></strong>{toy.text}</p>
             <a
               href={toy.link}
               target="_blank"
