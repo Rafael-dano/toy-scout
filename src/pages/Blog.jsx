@@ -64,7 +64,7 @@ const blogPosts = [
     //id: 8,
     //title: "10 Summer FUN Toys For Kids",
    // excerpt: "Having fun in the sun? Here are 10 more Summer fun Toys your Kids Need. Summer Activites Toys. ",
-    //date: "July 9, 2025",
+    //date: "July 7, 2025",
    // slug: "/blog/", // or another actual article you have 
    //how do i add another blog and link it to the blog.jsx
   //},
@@ -72,7 +72,7 @@ const blogPosts = [
     //id: 9,
     //title: "Top 10 Bath Time Toys ",
    // excerpt: "Scrub A Dub Dub Here Are The Best Bath Time Toys For Kids In the Tub.",
-    //date: "July 7, 2025",
+    //date: "July 9, 2025",
    // slug: "/blog/", 
   //},
   //{
