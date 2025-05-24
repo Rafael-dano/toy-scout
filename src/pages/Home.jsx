@@ -95,7 +95,7 @@ export default function Home() {
             />
             <h3 className="font-semibold text-lg text-center">Toddler Tricycle with Push Handle for 1-3 Year Old</h3>
             <p className="text-gray-500 text-center">$99.99</p>
-            <a href="https://a.co/d/9vCMcix" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+            <a href="https://a.co/d/9vCMcix?tag=more4kids0a-20" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
           </div>
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <img
