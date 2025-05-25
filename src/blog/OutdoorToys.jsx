@@ -18,7 +18,7 @@ const OutdoorToys = () => {
       description: '36-Piece Kids Water Table Splash Pond Toys Set for Outside Outdoor Backyard, Toddlers Activity Sensory Water Play Table Summer Toys for Boy.',
       price: '$45.99',
       link: 'https://www.amazon.com/dp/B0DP8KQRT3/ref=cm_sw_r_as_gl_api_gl_i_SP3SHV097XY3BJPBBVRV?linkCode=ml1&tag=more4kids0a-20',
-    },
+    }, 
     {
       title: 'Stomp Rocket Jr. Glow',
       image: 'https://m.media-amazon.com/images/I/71ev0RHeBgL.__AC_SX300_SY300_QL70_FMwebp_.jpg',

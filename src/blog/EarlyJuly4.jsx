@@ -92,7 +92,7 @@ const EarlyJuly4 = () => {
     description: ' Red, White and Blue American flag designs will get your little one feeling proud to be an American this 4th of July! Perfect for the Independence Day barbeque or fireworks show! Queue the Star Spangled Banner!',
     text: "This adorable 4th of July short set is a festive must-have for patriotic summer celebrations. Featuring bold red, white, and blue colors and an American flag-inspired design, it's the perfect outfit for parades, BBQs, or family fireworks night. Made from lightweight, breathable fabric, the set keeps your child cool and comfortable even in the heat. The shorts have a stretchy waistband for a comfy fit, and the matching top completes the all-American look. It’s both stylish and functional, making your little one photo-ready while allowing for free movement during play or celebration.",
     price: '$14.99',
-    link: 'https://www.amazon.com/Enlifety-Toddler-Patriotic-Dresses-Independence/dp/B0CZHTHJGQ/ref=sr_1_24?crid=31MH7FX5ILUM6&dib=eyJ2IjoiMSJ9.D7JkHlDxFiMpbXu8dWY8NYMNsP_NtlBPyutVEZ1mlZOoNzYZkN_D4uzexqCCUyE-5RLZ7MHtv_htib92sDopoogIlf19-j47d3BMG7LuJTNCKl5vTWRHN33a6HOl2LLlMijpUnhcWbJWoiOSw4JyQRgObNZkyYY_a3zcCJfHamW6m_WpO-LASG7CUtYQQ9ODipbfTnpys5-n4cw75DOa2ngVQiY_JAEmYddybQmaTIsQkLGOM7JrW9T1-319Bue_7l915TsrC-P-vTT97T5rcXi9Q6zF_lYnlpta4DtHmOE.J61a7LRCPxMyNqFBNLL5IVB9LpxAzj1vE4NX8_Vk3cs&dib_tag=se&keywords=Unique+Baby+girls+Patriotic+Stars+Stripes+4th+of+July+Short+Set&qid=1748195853&sprefix=unique+baby+girls+patriotic+stars+stripes+4th+of+july+short+set%2Caps%2C112&sr=8-24',
+    link: 'https://www.amazon.com/dp/B0CZHTHJGQ/ref=cm_sw_r_as_gl_api_gl_i_XWXS5VD0R1DZFC0PH13J?linkCode=ml1&tag=more4kids0a-20',
   },
 ];
 return (
