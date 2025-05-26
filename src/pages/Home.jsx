@@ -107,6 +107,16 @@ export default function Home() {
             <p className="text-gray-500 text-center">$70 - $80</p>
             <a href="https://www.amazon.com/dp/B01K1K0K6M/ref=cm_sw_r_as_gl_api_gl_i_PPA2HCQPHQSMNZ3V4B58?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
           </div>
+          <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
+            <img
+              src="https://m.media-amazon.com/images/I/81OOJ9ds3-L._SY425_.jpg"
+              alt="E-Book"
+              className="rounded mb-2 w-24 mx-auto"
+            />
+            <h3 className="font-semibold text-lg text-center">Wiggly The Worm : Kindle Edition</h3>
+            <p className="text-gray-500 text-center">On Sale $0.99</p>
+            <a href="https://www.amazon.com/dp/B00YF8TIRY/ref=cm_sw_r_as_gl_api_gl_YW6Q58P987JND216GCZP?linkCode=ml1&tag=more4kids0a-20" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+          </div>
         </div>
       </section>
 
