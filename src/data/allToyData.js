@@ -347,5 +347,13 @@ export const allToys = [
     image: "https://m.media-amazon.com/images/I/81UxynQciFL._AC_SX679_.jpg",
     affiliateLink: "https://www.amazon.com/dp/B01K1K0K6M/ref=cm_sw_r_as_gl_api_gl_i_PPA2HCQPHQSMNZ3V4B58?linkCode=ml1&tag=valeriafinds2-20&th=1"
   },
+  {
+    id: 44,
+    title: "Wiggly the Worm",
+    description: "Follow the adventures of Wiggly Worm and his best friends (Snarky Snail, Rattles Snake, and Munchy Mosquito). Wiggly and his friends live in a backyard garden. What happens when they decide to explore outside the yard?",
+    priceRange: "$4.99",
+    image:"https://m.media-amazon.com/images/I/81OOJ9ds3-L._SY425_.jpg",
+    affiliateLink: "https://www.amazon.com/dp/B00YF8TIRY/ref=cm_sw_r_as_gl_api_gl_YW6Q58P987JND216GCZP?linkCode=ml1&tag=more4kids0a-20"
+  },
 ];
   
