@@ -355,5 +355,29 @@ export const allToys = [
     image:"https://m.media-amazon.com/images/I/81OOJ9ds3-L._SY425_.jpg",
     affiliateLink: "https://www.amazon.com/dp/B00YF8TIRY/ref=cm_sw_r_as_gl_api_gl_YW6Q58P987JND216GCZP?linkCode=ml1&tag=more4kids0a-20"
   },
+  {
+    id: 45,
+    title: 'New Amazon Kindle Kids (16 GB)',
+    image: 'https://m.media-amazon.com/images/I/914CIoYXtHL._AC_SX679_.jpg',
+    description:' includes ad-free books and cover, with glare-free display, faster page turns.',
+    price: '$129.99',
+    affiliateLink: 'https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1',
+  },
+  {
+    id:46,
+    title: 'Team Supercrew - Emotions and Powers - 4 Book Box Set',
+    image: "https://m.media-amazon.com/images/I/71ejc1iXamL._SY342_.jpg",
+    description:' 4 Book Box Set (books 1-4): Help kids through big emotions (anger, fear, frustration, sadness). Discover the power to be brave, be kind, be calm, and have grit!.',
+    price: '$60 on sale $4.99',
+    affiliateLink: 'https://www.amazon.com/dp/B0BRYF4NK8/ref=cm_sw_r_as_gl_api_gl_EHWAE6CPVP2DE3F0PW9Q?linkCode=ml1&tag=more4kids0a-20',
+  },
+  {
+    id:47,
+    title: 'The Girl Who Drank the Moon',
+    image: ' https://m.media-amazon.com/images/I/81gsCyvMnFL._SY466_.jpg',
+    description:' Winner of the 2017 Newbery Medal ★ A New York Times Bestseller ★ An Entertainment Weekly Best Middle Grade Book of 2016 ★ A New York Public Library Best Book ★ A Chicago Public Library Best Book ★ An Amazon Top 20 Best Book ★ A Publishers Weekly Best Book ★ A School Library Journal Best Book ★ A Kirkus Reviews Best Book ★ A Booklist Youth Editors’ Choice.',
+    price: '$10.99',
+    affiliateLink: 'https://www.amazon.com/dp/B01B3VMCI2/ref=cm_sw_r_as_gl_api_gl_dl_7397DRBBZYHSN5VYNYD5?linkCode=ml1&tag=more4kids0a-20',
+  },
 ];
   
