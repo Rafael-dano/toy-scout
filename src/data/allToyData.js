@@ -355,5 +355,13 @@ export const allToys = [
     image:"https://m.media-amazon.com/images/I/81OOJ9ds3-L._SY425_.jpg",
     affiliateLink: "https://www.amazon.com/dp/B00YF8TIRY/ref=cm_sw_r_as_gl_api_gl_YW6Q58P987JND216GCZP?linkCode=ml1&tag=more4kids0a-20"
   },
+  {
+    id: 45,
+    title: 'New Amazon Kindle Kids (16 GB)',
+    description:' includes ad-free books and cover, with glare-free display, faster page turns.',
+    priceRange: '$129.99',
+    image: 'https://m.media-amazon.com/images/I/914CIoYXtHL._AC_SX679_.jpg',
+    affiliateLink: 'https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1',
+  },
 ];
   
