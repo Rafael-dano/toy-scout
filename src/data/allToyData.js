@@ -301,11 +301,11 @@ export const allToys = [
   },
   {
     id: 38,
-    title: "Avenlur Indoor Playground Jungle Gym",
-    description: "Magnolia 6-in-1 Montessori Wooden Indoor Playground for Kids & Toddlers Ages 2-6 – Waldorf Toys, Rope Ladder, Indoor Swing, Baby Slide, Rock Climbing Wall.",
-    priceRange: "$649.00",
-    image: "https://m.media-amazon.com/images/I/91n9r1XeW8L._AC_SX679_.jpg",
-    affiliateLink: "https://www.amazon.com/dp/B08QRR6NZP/ref=cm_sw_r_as_gl_api_gl_i_1SVN4S5XJBE3XK2GXG2J?linkCode=ml1&tag=more4kids0a-20&th=1"
+    title: " Wooden Jungle Gym",
+    description: "Indoor Playground 8-in-1 Wooden Jungle Gym Large Kids Play Gym Climbing Toys with Swing, Slide with Preperation Zone, Monkey Bars, Climbing Rocks, Rope Wall, Ladders.",
+    priceRange: "$329.00",
+    image: "https://m.media-amazon.com/images/I/81t-RCtZOKL._AC_SX679_.jpg",
+    affiliateLink: "https://www.amazon.com/dp/B0DQ4ZC6P8/ref=cm_sw_r_as_gl_api_gl_i_W26M6TRXBG7390ZB0DCF?linkCode=ml1&tag=more4kids0a-20"
   },
   {
     id: 39,
