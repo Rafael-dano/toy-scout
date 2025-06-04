@@ -29,28 +29,27 @@ const blogPosts = [
     date: "June 2, 2025",
     slug: "/blog/outdoor-toys",
   },
-  //{
-    //id: 4,
-    //title: "Top 10 Educational Toys For Summer",
-    //excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
-    //date: "June 9, 2025",
-    //slug: "/blog/educational-toys", // or another actual article you have 
-  //},
-  //{
-    //id: 5,
-    //title: "10 Summer Finds For Kids",
-   // excerpt: "Having fun in the sun? Check out these Summer Toys that are Must haves. Summer Activites Toys.",
-    //date: "June 9, 2025",
-   // slug: "/blog/[change to match with title]", // or another actual article you have 
-  //},
-  //{
-    //id: 6,
-    //title: "TOP JULY 4TH Toys for Kids ",
-   // excerpt: "Early Finds on Outdoor Kids Toys for The Forth of July ",
-    //date: "June 12, 2025",
-   // slug: "/blog/outdoor-toys", // or another actual article you have 
-   //how do i add another blog and link it to the blog.jsx
-  //},
+  {
+    id: 4,
+    title: "Top 10 Educational Toys For Summer",
+    excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
+    date: "June 4, 2025",
+    slug: "/blog/educational-toys",  
+  },
+  {
+    id: 5,
+    title: "10 Summer Finds For Kids",
+    excerpt: "Having fun in the sun? Check out these Summer Toys that are Must haves. Summer Activites Toys.",
+    date: "June 4, 2025",
+    slug: "/blog/summer-finds", 
+  },
+  {
+    id: 6,
+    title: "TOP JULY 4TH Toys for Kids ",
+    excerpt: "Early Finds on Outdoor Kids Toys for The Forth of July ",
+    date: "June 4, 2025",
+    slug: "/blog/early-july", 
+  },
   //{
     //id: 7,
     //title: "Top 15 Toys for July 4th ",

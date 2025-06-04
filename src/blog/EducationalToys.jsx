@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-// find new products that fit niche then change them out
 
 const educationalToys = [
   {
@@ -88,14 +87,14 @@ export default function EducationalToys() {
         />
          {/* Open Graph / Facebook */}
          <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mytoyscout.netlify.app/" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/educational-toys" />
         <meta property="og:title" content="Top 10 Educational Toys for Summer | My Toy Scout" />
         <meta property="og:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://mytoyscout.netlify.app/" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/educational-toys" />
         <meta name="twitter:title" content="Top 10 Educational Toys for Summer | My Toy Scout" />
         <meta name="twitter:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
@@ -115,10 +114,10 @@ export default function EducationalToys() {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/" 
+          "url": "https://mytoyscout.netlify.app/educational-toys" 
         }
       },
-      "datePublished": "2025-06-16"
+      "datePublished": "2025-06-04"
        })}
         </script>
       </Helmet>

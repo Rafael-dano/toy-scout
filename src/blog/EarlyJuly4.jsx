@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 
 // find new products that fit niche then change them out
 
-const EarlyJuly4 = () => {
+const EarlyJuly = () => {
   const products = [
     {
     title: 'ArtCreativity Light Up Magic Ball Toy Wand for Kids',
@@ -105,14 +105,14 @@ return (
         />
          {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/outdoor-toys" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/early-july" />
         <meta property="og:title" content="TOP JULY 4TH Toys for Kids | My Toy Scout" />
         <meta property="og:description" content="Early Finds on Outdoor Kids Toys for The Forth of July." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/outdoor-toys" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/early-july" />
         <meta name="twitter:title" content="TOP JULY 4TH Toys for Kids | My Toy Scout" />
         <meta name="twitter:description" content="Early Finds on Outdoor Kids Toys for The Forth of July." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
@@ -132,9 +132,9 @@ return (
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/blog/outdoor-toys"
+          "url": "https://mytoyscout.netlify.app/blog/early-july"
       },
-      "datePublished": "2025-06-12"
+      "datePublished": "2025-06-4"
     }
           })}
         </script>
@@ -163,4 +163,4 @@ return (
   );
 };
 
-export default EarlyJuly4;
+export default EarlyJuly;

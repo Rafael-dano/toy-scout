@@ -98,14 +98,14 @@ return (
         />
          {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/outdoor-toys" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/summer-finds" />
         <meta property="og:title" content="10 Summer Finds For Kids | My Toy Scout" />
         <meta property="og:description" content="Having fun in the sun? Check out these Summer Toys that are Must haves. Summer Activites Toys." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/outdoor-toys" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/summer-finds" />
         <meta name="twitter:title" content="10 Summer Finds For Kids | My Toy Scout" />
         <meta name="twitter:description" content="Having fun in the sun? Check out these Summer Toys that are Must haves. Summer Activites Toys." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
@@ -125,7 +125,7 @@ return (
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/blog/outdoor-toys"
+          "url": "https://mytoyscout.netlify.app/blog/summer-finds"
       },
       "datePublished": "2025-06-02"
     }
