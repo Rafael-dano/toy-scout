@@ -9,52 +9,52 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
-    id: 1,
-    title: "Top 10 Toys for Kids in 2025",
-    excerpt: "Discover the best Toys of 2025 that help kids learn while having fun. From Talking Books to Stomp Rockets — here’s our top picks.",
-    date: "June 2, 2025",
-    slug: "/blog/top-toys-2025",
-  },
-  {
-    id: 2,
-    title: "Why STEM Toys Are the Future of Play",
-    excerpt: "STEM toys are more than a trend. Learn how they help kids build real-world skills in coding, logic, and engineering.",
-    date: "June 2, 2025",
-    slug: "/blog/stem-toys-future",
-  },
-  {
-    id: 3,
-    title: "Outside Fun Calls For Outdoor Toys",
-    excerpt: "Having fun in the sun? Check out these Outdoor Toys that are Must haves. ",
-    date: "June 2, 2025",
-    slug: "/blog/outdoor-toys",
-  },
-  {
-    id: 4,
+    id: 47,
     title: "Top 10 Educational Toys For Summer",
     excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
     date: "June 4, 2025",
     slug: "/blog/educational-toys",  
   },
   {
-    id: 5,
+    id: 46,
     title: "10 Summer Finds For Kids",
     excerpt: "Having fun in the sun? Check out these Summer Toys that are Must haves. Summer Activites Toys.",
     date: "June 4, 2025",
     slug: "/blog/summer-finds", 
   },
   {
-    id: 6,
+    id: 45,
     title: "TOP JULY 4TH Toys for Kids ",
     excerpt: "Early Finds on Outdoor Kids Toys for The Forth of July ",
     date: "June 4, 2025",
     slug: "/blog/early-july", 
   },
+  {
+    id: 50,
+    title: "Top 10 Toys for Kids in 2025",
+    excerpt: "Discover the best Toys of 2025 that help kids learn while having fun. From Talking Books to Stomp Rockets — here’s our top picks.",
+    date: "June 2, 2025",
+    slug: "/blog/top-toys-2025",
+  },
+  {
+    id: 49,
+    title: "Why STEM Toys Are the Future of Play",
+    excerpt: "STEM toys are more than a trend. Learn how they help kids build real-world skills in coding, logic, and engineering.",
+    date: "June 2, 2025",
+    slug: "/blog/stem-toys-future",
+  },
+  {
+    id: 48,
+    title: "Outside Fun Calls For Outdoor Toys",
+    excerpt: "Having fun in the sun? Check out these Outdoor Toys that are Must haves. ",
+    date: "June 2, 2025",
+    slug: "/blog/outdoor-toys",
+  },
   //{
     //id: 7,
     //title: "Top 15 Toys for July 4th ",
    // excerpt: "TOP JULY 4TH toys and gear for Kids. ",
-    //date: "June 23, 2025",
+    //date: "June 16, 2025",
    // slug: "/blog/outdoor-toys", // or another actual article you have 
    //how do i add another blog and link it to the blog.jsx
   //},
@@ -63,7 +63,7 @@ const blogPosts = [
     //id: 8,
     //title: "10 Summer FUN Toys For Kids",
    // excerpt: "Having fun in the sun? Here are 10 more Summer fun Toys your Kids Need. Summer Activites Toys. ",
-    //date: "July 7, 2025",
+    //date: "June 25, 2025",
    // slug: "/blog/", // or another actual article you have 
    //how do i add another blog and link it to the blog.jsx
   //},
@@ -71,7 +71,7 @@ const blogPosts = [
     //id: 9,
     //title: "Top 10 Bath Time Toys ",
    // excerpt: "Scrub A Dub Dub Here Are The Best Bath Time Toys For Kids In the Tub.",
-    //date: "July 9, 2025",
+    //date: "July 7, 2025",
    // slug: "/blog/", 
   //},
   //{
