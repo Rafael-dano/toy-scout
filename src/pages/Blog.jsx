@@ -8,8 +8,15 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
+  //{
+    //id: 44,
+   // title: "Top E-Books for Kids This Summer",
+    //execrt: "Keep Your liitle One Engaged and Learning With These E-Books We've found.",
+   // date: "June 11, 2025",
+   // slug: "/blog/ebooks",
+  //},
   {
-    id: 47,
+    id: 45,
     title: "Top 10 Educational Toys For Summer",
     excerpt: "Looking for the best educational toys for toddlers? Here's our expert-approved list of the top 10 toys for learning and fun in 2025. ",
     date: "June 4, 2025",
@@ -23,25 +30,11 @@ const blogPosts = [
     slug: "/blog/summer-finds", 
   },
   {
-    id: 45,
+    id: 47,
     title: "TOP JULY 4TH Toys for Kids ",
     excerpt: "Early Finds on Outdoor Kids Toys for The Forth of July ",
     date: "June 4, 2025",
     slug: "/blog/early-july", 
-  },
-  {
-    id: 50,
-    title: "Top 10 Toys for Kids in 2025",
-    excerpt: "Discover the best Toys of 2025 that help kids learn while having fun. From Talking Books to Stomp Rockets — here’s our top picks.",
-    date: "June 2, 2025",
-    slug: "/blog/top-toys-2025",
-  },
-  {
-    id: 49,
-    title: "Why STEM Toys Are the Future of Play",
-    excerpt: "STEM toys are more than a trend. Learn how they help kids build real-world skills in coding, logic, and engineering.",
-    date: "June 2, 2025",
-    slug: "/blog/stem-toys-future",
   },
   {
     id: 48,
@@ -50,67 +43,80 @@ const blogPosts = [
     date: "June 2, 2025",
     slug: "/blog/outdoor-toys",
   },
+  {
+    id: 49,
+    title: "Top 10 Toys for Kids in 2025",
+    excerpt: "Discover the best Toys of 2025 that help kids learn while having fun. From Talking Books to Stomp Rockets — here’s our top picks.",
+    date: "June 2, 2025",
+    slug: "/blog/top-toys-2025",
+  },
+  {
+    id: 50,
+    title: "Why STEM Toys Are the Future of Play",
+    excerpt: "STEM toys are more than a trend. Learn how they help kids build real-world skills in coding, logic, and engineering.",
+    date: "June 2, 2025",
+    slug: "/blog/stem-toys-future",
+  },
   //{
-    //id: 7,
+    //id: 43,
     //title: "Top 15 Toys for July 4th ",
    // excerpt: "TOP JULY 4TH toys and gear for Kids. ",
     //date: "June 16, 2025",
-   // slug: "/blog/outdoor-toys", // or another actual article you have 
-   //how do i add another blog and link it to the blog.jsx
+   // slug: "/blog/july-4th",
   //},
 ////////////////////////////
 //{
-    //id: 8,
+    //id: 42,
     //title: "10 Summer FUN Toys For Kids",
    // excerpt: "Having fun in the sun? Here are 10 more Summer fun Toys your Kids Need. Summer Activites Toys. ",
     //date: "June 25, 2025",
-   // slug: "/blog/", // or another actual article you have 
+   // slug: "/blog/summer-fun", // or another actual article you have 
    //how do i add another blog and link it to the blog.jsx
   //},
   //{
-    //id: 9,
+    //id: 41,
     //title: "Top 10 Bath Time Toys ",
    // excerpt: "Scrub A Dub Dub Here Are The Best Bath Time Toys For Kids In the Tub.",
     //date: "July 7, 2025",
-   // slug: "/blog/", 
+   // slug: "/blog/bath-time", 
   //},
   //{
-  //id: 10,
+  //id: 40,
  // title: "Water Toys That Will Rule Summer 2025",
  // excerpt: "From inflatable slides to water blasters, these are the coolest water toys making waves this summer. Perfect for pool days and backyard fun.",
  // date: "July 14, 2025",
 //  slug: "/blog/summer-water-toys-2025",
 //},
 //{
- // id: 11,
+ // id: 39,
   //title: "Best Backyard Toys for Toddlers",
   //excerpt: "Turn your backyard into a toddler paradise with these outdoor toys made for active play, sensory exploration, and summer giggles.",
  // date: "July 21, 2025",
 //  slug: "/blog/backyard-toys-for-toddlers",
 //},
 //{
-  //id: 12,
+  //id: 38,
 //  title: "Top Toys to End Summer with a Bang",
   //excerpt: "Celebrate the end of summer break with these fun picks that combine creativity, movement, and excitement before school starts.",
 //  date: "July 28, 2025",
   //slug: "/blog/end-of-summer-toys",
 //},
 //{
-  //id: 13,
+  //id: 37,
   //title: "August's Must-Have Toys for Preschoolers",
   //excerpt: "August is for prepping little ones for a fun and educational year ahead. These preschool toys blend learning and laughter beautifully.",
   //date: "August 4, 2025",
   //slug: "/blog/august-toys-for-preschoolers",
 //},
 //{
-  //id: 14,
+  //id: 36,
   //title: "Top Toys to Spark Creativity in August",
   //excerpt: "These creative toys—from DIY kits to imaginative playsets—are perfect for kids looking to build, paint, craft, and create.",
   //date: "August 6, 2025",
   //slug: "/blog/creative-toys-august",
 //},
 //{
-  //id: 15,
+  //id: 35,
   //title: "Early Back-to-School Toys That Make Learning Fun",
   //excerpt: "Ease the transition from summer to school with these fun, educational toys that make early learning feel like playtime.",
   //date: "August 8, 2025",
