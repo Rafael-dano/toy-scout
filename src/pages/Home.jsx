@@ -74,7 +74,7 @@ export default function Home() {
             />
             <h3 className="font-semibold text-lg text-center">ITS SUMMER DONT FORGET THEIR LIFEJACKET </h3>
             <p className="text-gray-500 text-center">$30 - $50</p>
-            <a href="https://www.amazon.com/dp/B09TXW1VTL/ref=cm_sw_r_as_gl_api_gl_i_T4WC0BY9G0RSERXG3Z83?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+            <a href="https://www.amazon.com/dp/B09TXW1VTL/ref=cm_sw_r_as_gl_api_gl_i_T4WC0BY9G0RSERXG3Z83?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <img
@@ -84,7 +84,7 @@ export default function Home() {
             />
             <h3 className="font-semibold text-lg text-center">STEM: Magnetic Building Blocks</h3>
             <p className="text-gray-500 text-center">$30 - $50</p>
-            <a href="https://www.amazon.com/dp/B0B2RF8T4G/ref=cm_sw_r_as_gl_api_gl_i_4BXPK43H0N4EZFE2FBYT?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+            <a href="https://www.amazon.com/dp/B0B2RF8T4G/ref=cm_sw_r_as_gl_api_gl_i_4BXPK43H0N4EZFE2FBYT?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
           {/* Duplicate more cards as needed */}
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
@@ -95,7 +95,7 @@ export default function Home() {
             />
             <h3 className="font-semibold text-lg text-center">Toddler Tricycle with Push Handle for 1-3 Year Old</h3>
             <p className="text-gray-500 text-center">$99.99</p>
-            <a href="https://www.amazon.com/dp/B09B9LRBM5/ref=cm_sw_r_as_gl_api_gl_i_BKW2D6CQC0S7GYED79VW?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+            <a href="https://www.amazon.com/dp/B09B9LRBM5/ref=cm_sw_r_as_gl_api_gl_i_BKW2D6CQC0S7GYED79VW?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <img
@@ -105,7 +105,7 @@ export default function Home() {
             />
             <h3 className="font-semibold text-lg text-center">Toddler Water Table</h3>
             <p className="text-gray-500 text-center">$70 - $80</p>
-            <a href="https://www.amazon.com/dp/B01K1K0K6M/ref=cm_sw_r_as_gl_api_gl_i_PPA2HCQPHQSMNZ3V4B58?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+            <a href="https://www.amazon.com/dp/B01K1K0K6M/ref=cm_sw_r_as_gl_api_gl_i_PPA2HCQPHQSMNZ3V4B58?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <img
@@ -115,7 +115,7 @@ export default function Home() {
             />
             <h3 className="font-semibold text-lg text-center">New Amazon Kindle Kids (16 GB)</h3>
             <p className="text-gray-500 text-center">$129.99</p>
-            <a href="https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy on Amazon</a>
+            <a href="https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
         </div>
       </section>

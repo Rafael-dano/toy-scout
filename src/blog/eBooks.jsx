@@ -149,27 +149,27 @@ return (
         <title> Top E-Books for Kids This Summer | My Toy Scout</title>
         <meta
           name="description"
-          content="Keep Your liitle One Engaged and Learning With These E-Books We've found."
+          content="Keep Your little One Engaged and Learning With These E-Books We've found."
         />
          {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mytoyscout.netlify.app/blog/ebooks" />
         <meta property="og:title" content="Top E-Books for Kids This Summer | My Toy Scout" />
-        <meta property="og:description" content="Keep Your liitle One Engaged and Learning With These E-Books We've found." />
+        <meta property="og:description" content="Keep Your little One Engaged and Learning With These E-Books We've found." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/ebooks" />
         <meta name="twitter:title" content="Top E-Books for Kids This Summer | My Toy Scout" />
-        <meta name="twitter:description" content="Keep Your liitle One Engaged and Learning With These E-Books We've found." />
+        <meta name="twitter:description" content="Keep Your little One Engaged and Learning With These E-Books We've found." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
            <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "Top E-Books for Kids This Summer",
-      "description": "Keep Your liitle One Engaged and Learning With These E-Books We've found.",
+      "description": "Keep Your little One Engaged and Learning With These E-Books We've found.",
       "image": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png",
       "author": {
         "@type": "Person",

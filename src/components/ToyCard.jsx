@@ -46,7 +46,7 @@ export default function ToyCard({ toy }) {
         rel="noopener noreferrer"
         className="bg-brand text-white py-2 px-4 rounded hover:bg-yellow-600 inline-block mt-2"
       >
-        Buy on Amazon
+        Buy Now
       </a>
     </div>
   );
