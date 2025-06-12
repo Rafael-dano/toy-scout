@@ -12,7 +12,7 @@ import OutdoorToys from "./blog/OutdoorToys"
 import EducationalToys from "./blog/EducationalToys"
 import SummerFinds from "./blog/SummerFinds"
 import EarlyJuly from "./blog/EarlyJuly4"
-import EBooks from "./blog/EBooks"
+import EBooks from "./blog/eBooks"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
