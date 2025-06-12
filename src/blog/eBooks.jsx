@@ -4,16 +4,16 @@ import { Helmet } from "react-helmet"
 
 // make sure you add the reading image before going live
 
-const eBooks = () => {
+const EBooks = () => {
   const products = [
     {
-        title: 'New Amazon Kindle Kids (16 GB)',
-        image: 'https://m.media-amazon.com/images/I/914CIoYXtHL._AC_SX679_.jpg',
-        description:' includes ad-free books and cover, with glare-free display, faster page turns.',
-        text: "The Amazon Kindle Kids (16 GB) is a game-changer for young readers. With its glare-free display and faster page turns, it's built for comfortable, distraction-free reading. Parents will love that it comes with access to thousands of ad-free books and includes a durable cover for added protection. This Kindle encourages reading habits in a fun and tech-savvy way, giving kids their own dedicated space to explore literature, comics, and more. Whether for bedtime stories or independent reading, it’s a reliable companion for early learners and young bookworms.",
-        price: '$129.99',
-        link: 'https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1',
-      },
+      title: 'New Amazon Kindle Kids (16 GB)',
+      image: 'https://m.media-amazon.com/images/I/914CIoYXtHL._AC_SX679_.jpg',
+      description:' includes ad-free books and cover, with glare-free display, faster page turns.',
+      text: "The Amazon Kindle Kids (16 GB) is a game-changer for young readers. With its glare-free display and faster page turns, it's built for comfortable, distraction-free reading. Parents will love that it comes with access to thousands of ad-free books and includes a durable cover for added protection. This Kindle encourages reading habits in a fun and tech-savvy way, giving kids their own dedicated space to explore literature, comics, and more. Whether for bedtime stories or independent reading, it’s a reliable companion for early learners and young bookworms.",
+      price: '$129.99',
+      link: 'https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1',
+    },
       {
         title: 'Bedtime Stories for Kids',
         image: 'https://m.media-amazon.com/images/I/81LKHLI4UsL._SY385_.jpg',
@@ -142,8 +142,8 @@ const eBooks = () => {
         price: '$60 on sale $4.99',
         link: 'https://www.amazon.com/dp/B0BRYF4NK8/ref=cm_sw_r_as_gl_api_gl_EHWAE6CPVP2DE3F0PW9Q?linkCode=ml1&tag=more4kids0a-20',
       },
-];
-return (
+  ];
+  return (
     <div className="p-6 max-w-6xl mx-auto">
       <Helmet>
         <title> Top E-Books for Kids This Summer | My Toy Scout</title>
@@ -182,7 +182,7 @@ return (
           "@type": "ImageObject",
           "url": "https://mytoyscout.netlify.app/blog/ebooks"
       },
-      "datePublished": "2025-07-09"
+      "datePublished": "2025-06-11"
     }
           })}
         </script>
@@ -211,4 +211,4 @@ return (
   );
 };
 
-export default eBooks;
+export default EBooks;

@@ -8,13 +8,20 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
-  //{
-    //id: 44,
-   // title: "Top E-Books for Kids This Summer",
-    //excerpt: "Keep Your little One Engaged and Learning With These E-Books We've found.",
-   // date: "June 11, 2025",
-   // slug: "/blog/ebooks",
-  //},
+ // {
+//id: 43,
+//title: "Top Books for Kids This Summer",
+//excerpt:"Keep Your little One Engaged and Learning With These Books and Sets We've found.",
+//date: "June 13, 2025",
+//slug: "/blog/books",
+//},
+  {
+    id: 44,
+    title: "Top E-Books for Kids This Summer",
+    excerpt: "Keep Your little One Engaged and Learning With These E-Books We've found.",
+   date: "June 11, 2025",
+    slug: "/blog/ebooks",
+  },
   {
     id: 45,
     title: "Top 10 Educational Toys For Summer",
@@ -64,13 +71,6 @@ const blogPosts = [
     //date: "June 16, 2025",
    // slug: "/blog/july-4th",
   //},
-//{
-//id: 43,
-//title: "Top Books for Kids This Summer",
-//excerpt:"Keep Your little One Engaged and Learning With These Books and Sets We've found.",
-//date: "June 13, 2025"
-//slug: "/blog/books",
-//}
 //////////////
     //id: 41,
     //title: "10 Summer FUN Toys For Kids",
