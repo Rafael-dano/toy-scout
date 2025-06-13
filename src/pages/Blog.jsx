@@ -8,18 +8,18 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
- // {
-//id: 43,
-//title: "Top Books for Kids This Summer",
-//excerpt:"Keep Your little One Engaged and Learning With These Books and Sets We've found.",
-//date: "June 13, 2025",
-//slug: "/blog/books",
-//},
+  {
+    id: 43,
+    title: "Top Books for Kids This Summer",
+    excerpt:"Keep Your little One Engaged and Learning With These Books and Sets We've found.",
+    date: "June 13, 2025",
+    slug: "/blog/books",
+  },
   {
     id: 44,
     title: "Top E-Books for Kids This Summer",
     excerpt: "Keep Your little One Engaged and Learning With These E-Books We've found.",
-   date: "June 11, 2025",
+    date: "June 11, 2025",
     slug: "/blog/ebooks",
   },
   {

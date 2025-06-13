@@ -13,6 +13,7 @@ import EducationalToys from "./blog/EducationalToys"
 import SummerFinds from "./blog/SummerFinds"
 import EarlyJuly from "./blog/EarlyJuly4"
 import EBooks from "./blog/eBooks"
+import Books from './blog/books'
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/blog/summer-finds" element={<SummerFinds />} />
           <Route path="/blog/early-july" element={<EarlyJuly />} />
           <Route path="/blog/ebooks" element={<EBooks />} />
+          <Route path="/blog/books" element={<Books />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
