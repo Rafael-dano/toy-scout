@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 42,
+    title: "Top 15 Toys for July 4th ",
+    excerpt: "TOP JULY 4TH toys and gear for Kids. ",
+    date: "June 16, 2025",
+    slug: "/blog/july-4th",
+  },
+  {
     id: 43,
     title: "Top Books for Kids This Summer",
     excerpt:"Keep Your little One Engaged and Learning With These Books and Sets We've found.",
@@ -64,13 +71,7 @@ const blogPosts = [
     date: "June 2, 2025",
     slug: "/blog/stem-toys-future",
   },
-  //{
-    //id: 42,
-    //title: "Top 15 Toys for July 4th ",
-   // excerpt: "TOP JULY 4TH toys and gear for Kids. ",
-    //date: "June 16, 2025",
-   // slug: "/blog/july-4th",
-  //},
+  
 //////////////
     //id: 41,
     //title: "10 Summer FUN Toys For Kids",

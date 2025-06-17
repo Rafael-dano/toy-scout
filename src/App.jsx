@@ -14,6 +14,7 @@ import SummerFinds from "./blog/SummerFinds"
 import EarlyJuly from "./blog/EarlyJuly4"
 import EBooks from "./blog/eBooks"
 import Books from './blog/books'
+import Top15July4Toys from "./blog/Top15July4Toys"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -41,6 +42,7 @@ function App() {
           <Route path="/blog/early-july" element={<EarlyJuly />} />
           <Route path="/blog/ebooks" element={<EBooks />} />
           <Route path="/blog/books" element={<Books />} />
+          <Route path="/blog/july-4th" element={<Top15July4Toys />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
