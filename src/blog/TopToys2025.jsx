@@ -110,7 +110,7 @@ export default function TopToys2025() {
                 "name": "My Toy Scout",
                 "logo": {
                  "@type": "ImageObject",
-                 "url": "http://mytoyscout.netlify.app/blog/top-toys-2025"
+                 "url": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png"
                 }
               },
              "datePublished": "2025-06-02"

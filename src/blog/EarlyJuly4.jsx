@@ -132,7 +132,7 @@ return (
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/blog/early-july"
+          "url": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png"
       },
       "datePublished": "2025-06-4"
     }

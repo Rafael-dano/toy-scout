@@ -87,14 +87,14 @@ export default function EducationalToys() {
         />
          {/* Open Graph / Facebook */}
          <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mytoyscout.netlify.app/educational-toys" />
+        <meta property="og:url" content="https://mytoyscout.netlify.app/blog/educational-toys" />
         <meta property="og:title" content="Top 10 Educational Toys for Summer | My Toy Scout" />
         <meta property="og:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta property="og:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://mytoyscout.netlify.app/educational-toys" />
+        <meta name="twitter:url" content="https://mytoyscout.netlify.app/blog/educational-toys" />
         <meta name="twitter:title" content="Top 10 Educational Toys for Summer | My Toy Scout" />
         <meta name="twitter:description" content="Discover the best educational toys for kids that combine fun and learning. Perfect for developing essential skills." />
         <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
@@ -114,7 +114,7 @@ export default function EducationalToys() {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/educational-toys" 
+          "url": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" 
         }
       },
       "datePublished": "2025-06-04"

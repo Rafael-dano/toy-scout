@@ -104,7 +104,7 @@ export default function STEMFuture() {
         "name": "My Toy Scout",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://mytoyscout.netlify.app/blog/stem-toys-future" 
+          "url": "https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" 
         }
       },
       "datePublished": "2025-06-02"
