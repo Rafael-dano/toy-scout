@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 40,
+    title: "10 Summer FUN Toys For Kids",
+    excerpt: "Having fun in the sun? Here are 10 more Summer fun Toys your Kids Need. Summer Activites Toys. ",
+    date: "June 25, 2025",
+    slug: "/blog/summer-fun", 
+  },
+  {
     id: 41,
     title: "Prime Day Deals 2025",
     excerpt: "Discover the hottest Prime Day toy deals of 2025! Handpicked savings on educational toys, outdoor fun, STEM kits, and more—perfect for kids of all ages. Shop smarter with My Toy Scout.",
@@ -80,13 +87,6 @@ const blogPosts = [
   },
   
 //////////////
-  //{
-    //id: 40,
-    //title: "10 Summer FUN Toys For Kids",
-   // excerpt: "Having fun in the sun? Here are 10 more Summer fun Toys your Kids Need. Summer Activites Toys. ",
-    //date: "June 25, 2025",
-   // slug: "/blog/summer-fun", 
-  //},
   //{
     //id: 39,
     //title: "Top 10 Bath Time Toys ",
