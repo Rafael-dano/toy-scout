@@ -52,7 +52,7 @@ const PrimeDay = () => {
         description: 'Gifts for Kids 10 Inch Colorful Toddler Doodle Board Drawing Tablet, Erasable Reusable Electronic Drawing Pads, Educational and Learning Toys for Kids',
         text: "Unleash your child’s inner artist or budding writer with the KOKODI LCD Writing Tablet—a mess-free, eco-conscious solution for drawing, doodling, and learning on the go. With just one button to clear the screen, it’s endlessly reusable and perfect for road trips, restaurants, or quiet time at home. The screen is bright and colorful without being harsh on the eyes, and it’s lightweight enough for even small hands to carry. While older kids might outgrow its simplicity, it’s absolutely ideal for preschoolers learning letters, numbers, or exploring their creativity. With no ink, no paper, and no fuss, this tablet makes expression easy, fun, and guilt-free.",
         price: '$19.99',
-        link: 'amazon.com/dp/B082KFTF41?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2J534WTV9NMME&linkCode=tr1&tag=more4kids0a-20&linkId=amzn1.campaign.2J534WTV9NMME_1750376623828',
+        link: 'https://www.amazon.com/dp/B082KFTF41?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2J534WTV9NMME&linkCode=tr1&tag=more4kids0a-20&linkId=amzn1.campaign.2J534WTV9NMME_1750376623828&th=1',
       },
       {
         title: 'Magnetic Tiles Kids Toy',
