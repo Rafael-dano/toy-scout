@@ -17,6 +17,7 @@ import Books from './blog/books'
 import Top15July4Toys from "./blog/Top15July4Toys"
 import Primeday from "./blog/PrimeDayDeals"
 import SummerFunFinds from "./blog/SummerFunFinds"
+import MustHaves from "./blog/MustHaves" 
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -47,6 +48,7 @@ function App() {
           <Route path="/blog/july-4th" element={<Top15July4Toys />} />
           <Route path="/blog/prime-day-deals-2025" element={<Primeday />} />
           <Route path="/blog/summer-fun" element={<SummerFunFinds />} />
+          <Route path="/blog/must-haves" element={<MustHaves />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
