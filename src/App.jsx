@@ -18,6 +18,7 @@ import Top15July4Toys from "./blog/Top15July4Toys"
 import Primeday from "./blog/PrimeDayDeals"
 import SummerFunFinds from "./blog/SummerFunFinds"
 import MustHaves from "./blog/MustHaves" 
+import BathTimeToys from "./blog/BathTimeToys"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="/blog/prime-day-deals-2025" element={<Primeday />} />
           <Route path="/blog/summer-fun" element={<SummerFunFinds />} />
           <Route path="/blog/must-haves" element={<MustHaves />} />
+          <Route path="/blog/bath-time" element={<BathTimeToys />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>

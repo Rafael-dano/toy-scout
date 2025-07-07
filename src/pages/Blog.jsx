@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 38,
+    title: "Top 10 Bath Time Toys ",
+    excerpt: "Scrub A Dub Dub Here Are The Best Bath Time Toys For Kids In the Tub.",
+    date: "July 7, 2025",
+    slug: "/blog/bath-time", 
+  },
+  {
     id: 39,
     title: "12 Must-Have Kids’ Toys for Summer 2025 — Outdoor Fun, STEM Learning & More! ",
     excerpt: "Keep your kids smiling and learning all summer with these 12 top-rated toys of 2025! From splash pads to talking books, STEM telescopes to bubble machines — explore parent-approved picks perfect for Prime Day deals.",
@@ -94,13 +101,6 @@ const blogPosts = [
   },
   
 //////////////
-  //{
-    //id: 38,
-    //title: "Top 10 Bath Time Toys ",
-   // excerpt: "Scrub A Dub Dub Here Are The Best Bath Time Toys For Kids In the Tub.",
-    //date: "July 7, 2025",
-   // slug: "/blog/bath-time", 
-  //},
   //{
   //id: 37,
  // title: "Water Toys That Will Rule Summer 2025",
