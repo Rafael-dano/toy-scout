@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Helmet } from "react-helmet";
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -27,6 +28,9 @@ function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
+        <Helmet>
+          <meta name="p:domain_verify" content="7d9a1357a52b8035ca036efcbcc553e1" />
+        </Helmet>
         <Header />
         <Navbar />
         <Routes>
