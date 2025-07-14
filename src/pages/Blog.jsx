@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 37,
+    title: "Water Toys That Will Rule Summer 2025",
+    excerpt: "From inflatable slides to water blasters, these are the coolest water toys making waves this summer. Perfect for pool days and backyard fun.",
+    date: "July 14, 2025",
+    slug: "/blog/summer-water-toys-2025",
+  },
+  {
     id: 38,
     title: "Top 10 Bath Time Toys ",
     excerpt: "Scrub A Dub Dub Here Are The Best Bath Time Toys For Kids In the Tub.",
@@ -101,13 +108,6 @@ const blogPosts = [
   },
   
 //////////////
-  //{
-  //id: 37,
- // title: "Water Toys That Will Rule Summer 2025",
- // excerpt: "From inflatable slides to water blasters, these are the coolest water toys making waves this summer. Perfect for pool days and backyard fun.",
- // date: "July 14, 2025",
-//  slug: "/blog/summer-water-toys-2025",
-//},
 //{
  // id: 36,
   //title: "Best Backyard Toys for Toddlers",
