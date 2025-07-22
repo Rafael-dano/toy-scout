@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+  id: 36,
+  title: "Best Backyard Toys for Toddlers",
+  excerpt: "Turn your backyard into a toddler paradise with these outdoor toys made for active play, sensory exploration, and summer giggles.",
+  date: "July 21, 2025",
+  slug: "/blog/backyard-toys-for-toddlers",
+  },
+  {
     id: 37,
     title: "Water Toys That Will Rule Summer 2025",
     excerpt: "From inflatable slides to water blasters, these are the coolest water toys making waves this summer. Perfect for pool days and backyard fun.",
@@ -108,13 +115,6 @@ const blogPosts = [
   },
   
 //////////////
-//{
- // id: 36,
-  //title: "Best Backyard Toys for Toddlers",
-  //excerpt: "Turn your backyard into a toddler paradise with these outdoor toys made for active play, sensory exploration, and summer giggles.",
- // date: "July 21, 2025",
-//  slug: "/blog/backyard-toys-for-toddlers",
-//},
 //{
   //id: 35,
 //  title: "Top Toys to End Summer with a Bang",
