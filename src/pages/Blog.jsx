@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+  id: 35,
+  title: "Top Toys to End Summer with a Bang",
+  excerpt: "Celebrate the end of summer break with these fun picks that combine creativity, movement, and excitement before school starts.",
+  date: "July 28, 2025",
+  slug: "/blog/end-of-summer-toys",
+},
+{
   id: 36,
   title: "Best Backyard Toys for Toddlers",
   excerpt: "Turn your backyard into a toddler paradise with these outdoor toys made for active play, sensory exploration, and summer giggles.",
@@ -115,13 +122,6 @@ const blogPosts = [
   },
   
 //////////////
-//{
-  //id: 35,
-//  title: "Top Toys to End Summer with a Bang",
-  //excerpt: "Celebrate the end of summer break with these fun picks that combine creativity, movement, and excitement before school starts.",
-//  date: "July 28, 2025",
-  //slug: "/blog/end-of-summer-toys",
-//},
 //{
   //id: 34,
   //title: "August's Must-Have Toys for Preschoolers",
