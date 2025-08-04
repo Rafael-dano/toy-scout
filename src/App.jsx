@@ -23,6 +23,7 @@ import BathTimeToys from "./blog/BathTimeToys"
 import SummerWater from "./blog/SummerWaterToys2025";
 import BackyardToys from "./blog/BackyardToysForToddlers";
 import EndSummer from "./blog/EndOfSummerToys"
+import AugustPre from "./blog/AugustToysForPreschoolers";
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -61,6 +62,7 @@ function App() {
           <Route path="/blog/summer-water-toys-2025" element={<SummerWater />} />
           <Route path="/blog/backyard-toys-for-toddlers" element={<BackyardToys />} />
           <Route path="/blog/end-of-summer-toys" element={<EndSummer />} />
+          <Route path="/blog/august-toys-for-preschoolers" element={<AugustPre />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>

@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+  id: 34,
+  title: "August's Must-Have Toys for Preschoolers",
+  excerpt: "August is for prepping little ones for a fun and educational year ahead. These preschool toys blend learning and laughter beautifully.",
+  date: "August 4, 2025",
+  slug: "/blog/august-toys-for-preschoolers",
+},
+  {
   id: 35,
   title: "Top Toys to End Summer with a Bang",
   excerpt: "Celebrate the end of summer break with these fun picks that combine creativity, movement, and excitement before school starts.",
@@ -122,13 +129,6 @@ const blogPosts = [
   },
   
 //////////////
-//{
-  //id: 34,
-  //title: "August's Must-Have Toys for Preschoolers",
-  //excerpt: "August is for prepping little ones for a fun and educational year ahead. These preschool toys blend learning and laughter beautifully.",
-  //date: "August 4, 2025",
-  //slug: "/blog/august-toys-for-preschoolers",
-//},
 //{
   //id: 33,
   //title: "Top Toys to Spark Creativity in August",
