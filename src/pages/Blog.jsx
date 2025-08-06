@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+  id: 33,
+  title: "Top Toys to Spark Creativity in August",
+  excerpt: "These creative toys—from DIY kits to imaginative playsets—are perfect for kids looking to build, paint, craft, and create.",
+  date: "August 6, 2025",
+  slug: "/blog/creative-toys-august",
+},
+{
   id: 34,
   title: "August's Must-Have Toys for Preschoolers",
   excerpt: "August is for prepping little ones for a fun and educational year ahead. These preschool toys blend learning and laughter beautifully.",
