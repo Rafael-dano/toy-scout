@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+  id: 32,
+  title: "Early Back-to-School Toys That Make Learning Fun",
+  excerpt: "Ease the transition from summer to school with these fun, educational toys that make early learning feel like playtime.",
+  date: "August 9, 2025",
+  slug: "/blog/back-to-school-toys",
+},
+  {
   id: 33,
   title: "Top Toys to Spark Creativity in August",
   excerpt: "These creative toys—from DIY kits to imaginative playsets—are perfect for kids looking to build, paint, craft, and create.",
@@ -134,22 +141,6 @@ const blogPosts = [
     date: "June 2, 2025",
     slug: "/blog/stem-toys-future",
   },
-  
-//////////////
-//{
-  //id: 33,
-  //title: "Top Toys to Spark Creativity in August",
-  //excerpt: "These creative toys—from DIY kits to imaginative playsets—are perfect for kids looking to build, paint, craft, and create.",
-  //date: "August 6, 2025",
-  //slug: "/blog/creative-toys-august",
-//},
-//{
-  //id: 32,
-  //title: "Early Back-to-School Toys That Make Learning Fun",
-  //excerpt: "Ease the transition from summer to school with these fun, educational toys that make early learning feel like playtime.",
-  //date: "August 8, 2025",
-  //slug: "/blog/back-to-school-toys",
-//},
 ]
 
 export default function Blog() {

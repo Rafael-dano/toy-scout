@@ -25,6 +25,7 @@ import BackyardToys from "./blog/BackyardToysForToddlers"
 import EndSummer from "./blog/EndOfSummerToys"
 import AugustPre from "./blog/AugustToysForPreschoolers"
 import CreativeAug from "./blog/CreativeToysAugust"
+import BackEarly from './blog/BackToSchoolToys';
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -65,6 +66,7 @@ function App() {
           <Route path="/blog/end-of-summer-toys" element={<EndSummer />} />
           <Route path="/blog/august-toys-for-preschoolers" element={<AugustPre />} />
           <Route path="/blog/creative-toys-august" element={<CreativeAug />} />
+          <Route path="/blog/back-to-school-toys" element={<BackEarly />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
