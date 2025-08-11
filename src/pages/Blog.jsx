@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 31,
+    title: "Must-Have Back-to-School Toys That Make Learning Fun",
+    excerpt: "Make back-to-school season exciting with toys that help kids learn and play. These educational picks add fun to homework time and boost engagement.",
+    date: "August 11, 2025",
+    slug: "/blog/back-to-school-toys-2025",
+  },
+  {
   id: 32,
   title: "Early Back-to-School Toys That Make Learning Fun",
   excerpt: "Ease the transition from summer to school with these fun, educational toys that make early learning feel like playtime.",
