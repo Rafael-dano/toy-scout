@@ -27,6 +27,7 @@ import AugustPre from "./blog/AugustToysForPreschoolers"
 import CreativeAug from "./blog/CreativeToysAugust"
 import BackEarly from './blog/BackToSchoolToys'
 import BackToSchoolToysLearningFun from "./blog/back-to-school-toys-learning-fun"
+import BestKidsBackpacksSupplies2025 from "./blog/best-kids-backpacks-supplies-2025"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -69,6 +70,7 @@ function App() {
           <Route path="/blog/creative-toys-august" element={<CreativeAug />} />
           <Route path="/blog/back-to-school-toys" element={<BackEarly />} />
           <Route path="/blog/back-to-school-toys-2025" element={<BackToSchoolToysLearningFun />} />
+          <Route path="/blog/best-kids-school-supplies-2025" element={<BestKidsBackpacksSupplies2025 />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>

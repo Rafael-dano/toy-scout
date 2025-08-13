@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 30,
+    title: "Best Kids’ Backpacks, Lunch Boxes & Supplies for 2025",
+    excerpt: "Start the school year right with the coolest backpacks, lunch kits, and kid-approved supplies that combine function, fun, and style.",
+    date: "August 13, 2025",
+    slug: "/blog/best-kids-school-supplies-2025",
+  },
+  {
     id: 31,
     title: "Must-Have Back-to-School Toys That Make Learning Fun",
     excerpt: "Make back-to-school season exciting with toys that help kids learn and play. These educational picks add fun to homework time and boost engagement.",
