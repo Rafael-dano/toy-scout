@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 29,
+    title: "7 Brain-Boosting Toys for After-School Wind Down",
+    excerpt: "These calming yet stimulating toys help kids relax after school while reinforcing cognitive skills through fun and play.",
+    date: "August 15, 2025",
+    slug: "/blog/brain-boosting-after-school-toys",
+  },
+  {
     id: 30,
     title: "Best Kids’ Backpacks, Lunch Boxes & Supplies for 2025",
     excerpt: "Start the school year right with the coolest backpacks, lunch kits, and kid-approved supplies that combine function, fun, and style.",

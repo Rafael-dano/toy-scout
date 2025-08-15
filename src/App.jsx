@@ -28,6 +28,7 @@ import CreativeAug from "./blog/CreativeToysAugust"
 import BackEarly from './blog/BackToSchoolToys'
 import BackToSchoolToysLearningFun from "./blog/back-to-school-toys-learning-fun"
 import BestKidsBackpacksSupplies2025 from "./blog/best-kids-backpacks-supplies-2025"
+import BrainBoostingToysAfterSchool from "./blog/brain-boosting-toys-after-school"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -71,6 +72,7 @@ function App() {
           <Route path="/blog/back-to-school-toys" element={<BackEarly />} />
           <Route path="/blog/back-to-school-toys-2025" element={<BackToSchoolToysLearningFun />} />
           <Route path="/blog/best-kids-school-supplies-2025" element={<BestKidsBackpacksSupplies2025 />} />
+          <Route path="/blog/brain-boosting-after-school-toys" element={<BrainBoostingToysAfterSchool />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
