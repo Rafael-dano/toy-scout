@@ -125,10 +125,10 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-4 text-purple-600">Latest Blog Posts</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="p-4 border rounded shadow">
-            <h3 className="text-xl font-semibold">7 Brain-Boosting Toys for After-School Wind Down</h3>
-            <p className="text-sm text-gray-500 mb-2">August 15, 2025</p>
-            <p className="text-gray-700 mb-2">These calming yet stimulating toys help kids relax after school while reinforcing cognitive skills through fun and play.</p>
-            <Link to="/blog/brain-boosting-after-school-toys" className="text-blue-500 hover:underline text-sm">Read More</Link>
+            <h3 className="text-xl font-semibold">Youth Football Essentials: Gear & Toys for Practice & Play</h3>
+            <p className="text-sm text-gray-500 mb-2">August 18, 2025</p>
+            <p className="text-gray-700 mb-2">Kick off the football season with gear and toys that help young players train, practice safely, and fuel their passion for the game.</p>
+            <Link to="/blog/youth-football-toys-essentials" className="text-blue-500 hover:underline text-sm">Read More</Link>
           </div>
         </div>
       </section>

@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 28,
+    title: "Youth Football Essentials: Gear & Toys for Practice & Play",
+    excerpt: "Kick off the football season with gear and toys that help young players train, practice safely, and fuel their passion for the game.",
+    date: "August 18, 2025",
+    slug: "/blog/youth-football-toys-essentials",
+  },
+  {
     id: 29,
     title: "7 Brain-Boosting Toys for After-School Wind Down",
     excerpt: "These calming yet stimulating toys help kids relax after school while reinforcing cognitive skills through fun and play.",
