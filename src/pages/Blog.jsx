@@ -9,6 +9,20 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 26,
+    title: "Top Picks for Kids Starting Preschool or Kindergarten",
+    excerpt: "Ease the first-day jitters with fun, age-appropriate toys and tools that help preschoolers and kindergartners feel confident and excited to learn.",
+    date: "August 23, 2025",
+    slug: "/blog/toys-for-preschool-kindergarten",
+  },
+  {
+    id: 27,
+    title: "Toys That Make Car Rides to Practice More Peaceful",
+    excerpt: "Turn long drives into quiet fun with car-friendly toys that keep kids entertained and stress-free on the way to sports or school.",
+    date: "August 23, 2025",
+    slug: "/blog/toys-for-kids-in-car-rides",
+  },
+  {
     id: 28,
     title: "Youth Football Essentials: Gear & Toys for Practice & Play",
     excerpt: "Kick off the football season with gear and toys that help young players train, practice safely, and fuel their passion for the game.",

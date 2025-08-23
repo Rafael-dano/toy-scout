@@ -30,6 +30,8 @@ import BackToSchoolToysLearningFun from "./blog/back-to-school-toys-learning-fun
 import BestKidsBackpacksSupplies2025 from "./blog/best-kids-backpacks-supplies-2025"
 import BrainBoostingToysAfterSchool from "./blog/brain-boosting-toys-after-school"
 import YouthFootballGearToys from "./blog/youth-football-gear-toys"
+import ToysForPreschoolKindergartenKids from "./blog/toys-for-preschool-kindergarten-kids"
+import ToysForCarRidesToPractice from "./blog/toys-for-car-rides-to-practice"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -75,6 +77,8 @@ function App() {
           <Route path="/blog/best-kids-school-supplies-2025" element={<BestKidsBackpacksSupplies2025 />} />
           <Route path="/blog/brain-boosting-after-school-toys" element={<BrainBoostingToysAfterSchool />} />
           <Route path="/blog/youth-football-toys-essentials" element={<YouthFootballGearToys />} />
+          <Route path="/blog/toys-for-preschool-kindergarten" element={<ToysForPreschoolKindergartenKids />} />
+          <Route path="blog/toys-for-kids-in-car-rides" element={<ToysForCarRidesToPractice />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
