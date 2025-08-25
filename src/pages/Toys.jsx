@@ -24,7 +24,7 @@ const Toys = () => {
       <meta name="twitter:description" content="Browse top-rated toys by category: outdoor, educational, STEM, and more. Find fun, safe toys for every age and interest." />
       <meta name="twitter:image" content="https://mytoyscout.netlify.app/assets/mascot-toys-DUp45_TC.png" />
       </Helmet>
-      <h1>All Toys</h1>
+      <h1>Top Toy Picks</h1>
       <div className="toy-grid">
         {allToys.map(toy => (
           <ToyCard key={toy.id} toy={toy} />
