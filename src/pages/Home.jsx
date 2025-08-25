@@ -68,13 +68,33 @@ export default function Home() {
           {/* Example card */}
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <img
-              src="https://m.media-amazon.com/images/I/71x6tEsjSaL._AC_SX679_.jpg"
+              src="https://m.media-amazon.com/images/I/71PCo02POUL._AC_SX679_.jpg"
               alt="Toy"
               className="rounded mb-2 w-24 mx-auto "
             />
-            <h3 className="font-semibold text-lg text-center">ITS SUMMER DONT FORGET THEIR LIFEJACKET </h3>
-            <p className="text-gray-500 text-center">$30 - $50</p>
-            <a href="https://www.amazon.com/dp/B09TXW1VTL/ref=cm_sw_r_as_gl_api_gl_i_T4WC0BY9G0RSERXG3Z83?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
+            <h3 className="font-semibold text-lg text-center">EastPoint Sports Go! Gater Cornhole – Light-Up and Travel Versions </h3>
+            <p className="text-gray-500 text-center">$30 - $40</p>
+            <a href="https://www.amazon.com/dp/B07D6FBZTV/ref=cm_sw_r_as_gl_api_gl_i_KCRS1MXETJN6T9D8FYVE?linkCode=ml1&tag=more4kids0a-20&linkId=2b7f864feb8275416973c95239d84514" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
+          </div>
+          <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
+            <img
+              src="https://m.media-amazon.com/images/I/81pa-dG26dL._AC_SX679_.jpg"
+              alt="Toy"
+              className="rounded mb-2 w-24 mx-auto"
+            />
+            <h3 className="font-semibold text-lg text-center">Cool RC Cars for Kids</h3>
+            <p className="text-gray-500 text-center">$29.99</p>
+            <a href="https://www.amazon.com/dp/B0CTWHSSM8/ref=cm_sw_r_as_gl_api_gl_i_0N20BS10F53CC3R0GENN?linkCode=ml1&tag=more4kids0a-20&linkId=4ff57d1ffec31e4359259b4d9a40950a" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
+          </div>
+          <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
+            <img
+              src="https://m.media-amazon.com/images/I/914CIoYXtHL._AC_SX679_.jpg"
+              alt="New Amazon Kindle Kids"
+              className="rounded mb-2 w-24 mx-auto"
+            />
+            <h3 className="font-semibold text-lg text-center">New Amazon Kindle Kids (16 GB)</h3>
+            <p className="text-gray-500 text-center">$129.99</p>
+            <a href="https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
           <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
             <img
@@ -97,26 +117,6 @@ export default function Home() {
             <p className="text-gray-500 text-center">$99.99</p>
             <a href="https://www.amazon.com/dp/B09B9LRBM5/ref=cm_sw_r_as_gl_api_gl_i_BKW2D6CQC0S7GYED79VW?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
           </div>
-          <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
-            <img
-              src="https://m.media-amazon.com/images/I/91I9A9IS5DL._AC_SX679_.jpg"
-              alt="Toy"
-              className="rounded mb-2 w-24 mx-auto"
-            />
-            <h3 className="font-semibold text-lg text-center">Toddler Water Table</h3>
-            <p className="text-gray-500 text-center">$70 - $80</p>
-            <a href="https://www.amazon.com/dp/B01K1K0K6M/ref=cm_sw_r_as_gl_api_gl_i_PPA2HCQPHQSMNZ3V4B58?linkCode=ml1&tag=valeriafinds2-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
-          </div>
-          <div className="border rounded-xl p-4 shadow hover:shadow-lg transition">
-            <img
-              src="https://m.media-amazon.com/images/I/914CIoYXtHL._AC_SX679_.jpg"
-              alt="New Amazon Kindle Kids"
-              className="rounded mb-2 w-24 mx-auto"
-            />
-            <h3 className="font-semibold text-lg text-center">New Amazon Kindle Kids (16 GB)</h3>
-            <p className="text-gray-500 text-center">$129.99</p>
-            <a href="https://www.amazon.com/dp/B0CNV9CQK8/ref=cm_sw_r_as_gl_api_gl_i_GYTP5XYZ8RN1S1BBAEME?linkCode=ml1&tag=more4kids0a-20&th=1" className="text-yellow-600 hover:underline text-sm block text-center mt-1">Buy Now</a>
-          </div>
         </div>
       </section>
 
@@ -125,10 +125,10 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-4 text-purple-600">Latest Blog Posts</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="p-4 border rounded shadow">
-            <h3 className="text-xl font-semibold">Top Picks for Kids Starting Preschool or Kindergarten</h3>
-            <p className="text-sm text-gray-500 mb-2">August 23, 2025</p>
-            <p className="text-gray-700 mb-2">Ease the first-day jitters with fun, age-appropriate toys and tools that help preschoolers and kindergartners feel confident and excited to learn.</p>
-            <Link to="/blog/toys-for-preschool-kindergarten" className="text-blue-500 hover:underline text-sm">Read More</Link>
+            <h3 className="text-xl font-semibold">Fall Sports Fan Gear for Mini Football & Soccer Fans</h3>
+            <p className="text-sm text-gray-500 mb-2">August 25, 2025</p>
+            <p className="text-gray-700 mb-2">Get kids in the game with fan gear, mini sports kits, and themed toys that let them celebrate their favorite teams in style.</p>
+            <Link to="/blog/fall-sports-fan-toys-2025" className="text-blue-500 hover:underline text-sm">Read More</Link>
           </div>
         </div>
       </section>

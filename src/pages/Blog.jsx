@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 25,
+    title: "Fall Sports Fan Gear for Mini Football & Soccer Fans",
+    excerpt: "Get kids in the game with fan gear, mini sports kits, and themed toys that let them celebrate their favorite teams in style.",
+    date: "August 25, 2025",
+    slug: "/blog/fall-sports-fan-toys-2025",
+  },
+  {
     id: 26,
     title: "Top Picks for Kids Starting Preschool or Kindergarten",
     excerpt: "Ease the first-day jitters with fun, age-appropriate toys and tools that help preschoolers and kindergartners feel confident and excited to learn.",
