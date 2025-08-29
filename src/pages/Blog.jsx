@@ -9,6 +9,20 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 23,
+    title: "Educational Toys for Kids Who Love Sports Stats",
+    excerpt: "Combine sports with learning using toys that teach kids about stats, scores, strategy, and the math behind the game.",
+    date: "August 29, 2025",
+    slug: "/blog/sports-stats-educational-toys",
+  },
+  {
+    id: 24,
+    title: "Weekend Fun: The Best Backyard Toys for Early Fall",
+    excerpt: "Make the most of crisp fall weekends with outdoor toys that encourage active play, creativity, and family bonding.",
+    date: "August 29, 2025",
+    slug: "/blog/backyard-toys-for-fall-2025",
+  },
+  {
     id: 25,
     title: "Fall Sports Fan Gear for Mini Football & Soccer Fans",
     excerpt: "Get kids in the game with fan gear, mini sports kits, and themed toys that let them celebrate their favorite teams in style.",
