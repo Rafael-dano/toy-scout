@@ -9,6 +9,13 @@ import mascotBlog from "../assets/mascot-blog.png";
 
 const blogPosts = [
   {
+    id: 22,
+    title: "How to Build a Sports-Themed Playroom",
+    excerpt: "Design the ultimate playroom for your little athlete with sports-themed decor, furniture, and interactive toys.",
+    date: "September 1, 2025",
+    slug: "/blog/sports-themed-playroom-ideas",
+  },
+  {
     id: 23,
     title: "Educational Toys for Kids Who Love Sports Stats",
     excerpt: "Combine sports with learning using toys that teach kids about stats, scores, strategy, and the math behind the game.",
