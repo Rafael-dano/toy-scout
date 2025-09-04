@@ -6,8 +6,15 @@ import "../styles/base.css";
 import "../styles/blog.css";
 import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
-
+ 
 const blogPosts = [
+  {
+    id: 21,
+    title: "Must-Have Toys for Your Kid’s Locker or Backpack",
+    excerpt: "From fidget tools to fun gadgets, discover the top toys your kids will love to stash in their backpack or locker this school year.",
+    date: "September 4, 2025",
+    slug: "/blog/toys-for-kids-locker-backpack",
+  },
   {
     id: 22,
     title: "How to Build a Sports-Themed Playroom",

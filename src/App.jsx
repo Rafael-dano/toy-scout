@@ -35,11 +35,12 @@ import ToysForCarRidesToPractice from "./blog/toys-for-car-rides-to-practice"
 import FallSportsFanGearKids from "./blog/fall-sports-fan-gear-kids"
 import EducationalSportsToysKids from "./blog/educational-sports-toys-kids"
 import WeekendBackyardToysFall from "./blog/weekend-backyard-toys-fall"
-import SportsThemedPlayroomIdeas from './blog/sports-themed-playroom-ideas';
+import SportsThemedPlayroomIdeas from './blog/sports-themed-playroom-ideas'
+import LockerBackpackToysKids from "./blog/locker-backpack-toys-kids"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
-
+ 
 function App() {
   return (
     <Router>
@@ -87,6 +88,7 @@ function App() {
           <Route path="/blog/sports-stats-educational-toys" element={< EducationalSportsToysKids />} />
           <Route path="/blog/backyard-toys-for-fall-2025" element={< WeekendBackyardToysFall />} />
           <Route path="/blog/sports-themed-playroom-ideas" element={<SportsThemedPlayroomIdeas />} />
+          <Route path="/blog/toys-for-kids-locker-backpack" element={<LockerBackpackToysKids />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
