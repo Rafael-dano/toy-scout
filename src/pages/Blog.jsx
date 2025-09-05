@@ -8,6 +8,13 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
  
 const blogPosts = [
+  
+  {id: 20,
+    title: 'Fall Favorites: Top Toys for Crisp Weather Play',
+    excerpt: 'Embrace sweater weather with toys designed for cool outdoor fun. From leaf jumpers to nature kits, keep kids active as the seasons change.',
+    date: 'September 05, 2025',
+    slug: '/blog/fall-favorites-top-toys-for-crisp-weather-play',
+  },
   {
     id: 21,
     title: "Must-Have Toys for Your Kid’s Locker or Backpack",
