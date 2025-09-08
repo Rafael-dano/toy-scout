@@ -8,7 +8,12 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
  
 const blogPosts = [
-  
+  {id: 19,
+    title: 'Toys That Help Kids Stay Active Indoors This Fall',
+    excerpt: 'Don’t let cold weather slow your kids down! These toys turn any living room into a fun, fitness-friendly play space.',
+    date: 'September 08, 2025',
+    slug: '/blog/toys-that-help-kids-stay-active-indoors-this-fall'
+  },
   {id: 20,
     title: 'Fall Favorites: Top Toys for Crisp Weather Play',
     excerpt: 'Embrace sweater weather with toys designed for cool outdoor fun. From leaf jumpers to nature kits, keep kids active as the seasons change.',

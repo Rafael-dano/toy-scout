@@ -38,6 +38,7 @@ import WeekendBackyardToysFall from "./blog/weekend-backyard-toys-fall"
 import SportsThemedPlayroomIdeas from './blog/sports-themed-playroom-ideas'
 import LockerBackpackToysKids from "./blog/locker-backpack-toys-kids"
 import FallToysCrispWeatherPlay from "./blog/fall-toys-crisp-weather-play"
+import IndoorActiveToysForFall from "./blog/indoor-active-toys-for-fall"
 import About from './pages/About';
 import Toys from './pages/Toys';
 
@@ -91,6 +92,7 @@ function App() {
           <Route path="/blog/sports-themed-playroom-ideas" element={<SportsThemedPlayroomIdeas />} />
           <Route path="/blog/toys-for-kids-locker-backpack" element={<LockerBackpackToysKids />} />
           <Route path="/blog/fall-favorites-top-toys-for-crisp-weather-play" element={<FallToysCrispWeatherPlay />} />
+          <Route path="/blog/toys-that-help-kids-stay-active-indoors-this-fall" element={<IndoorActiveToysForFall />} />
           <Route path="/about" element={<About />} />
           <Route path="/toys" element={<Toys />} />
         </Routes>
