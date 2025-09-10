@@ -125,10 +125,10 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-4 text-purple-600">Latest Blog Posts</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="p-4 border rounded shadow">
-            <h3 className="text-xl font-semibold">Toys That Help Kids Stay Active Indoors This Fall</h3>
-            <p className="text-sm text-gray-500 mb-2">September 8, 2025</p>
-            <p className="text-gray-700 mb-2">Don’t let cold weather slow your kids down! These toys turn any living room into a fun, fitness-friendly play space.</p>
-            <Link to="/blog/toys-that-help-kids-stay-active-indoors-this-fall" className="text-blue-500 hover:underline text-sm">Read More</Link>
+            <h3 className="text-xl font-semibold">Mini Soccer Stars: Toys for Aspiring Young Athletes</h3>
+            <p className="text-sm text-gray-500 mb-2">September 10, 2025</p>
+            <p className="text-gray-700 mb-2">Gear up your little striker with soccer balls, goals, and skill-building toys perfect for young players just getting in the game.</p>
+            <Link to="/blog/mini-soccer-stars-toys-for-aspiring-young-athletes" className="text-blue-500 hover:underline text-sm">Read More</Link>
           </div>
         </div>
       </section>

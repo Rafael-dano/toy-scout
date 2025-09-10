@@ -8,6 +8,12 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
  
 const blogPosts = [
+  {id: 18,
+    title: 'Mini Soccer Stars: Toys for Aspiring Young Athletes',
+    excerpt: 'Gear up your little striker with soccer balls, goals, and skill-building toys perfect for young players just getting in the game.',
+    date: 'September 10, 2025',
+    slug: '/blog/mini-soccer-stars-toys-for-aspiring-young-athletes'
+  },
   {id: 19,
     title: 'Toys That Help Kids Stay Active Indoors This Fall',
     excerpt: 'Don’t let cold weather slow your kids down! These toys turn any living room into a fun, fitness-friendly play space.',
