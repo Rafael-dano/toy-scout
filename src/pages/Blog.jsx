@@ -8,6 +8,12 @@ import "../styles/layout.css";
 import mascotBlog from "../assets/mascot-blog.png";
  
 const blogPosts = [
+  {id: 115,
+    title: 'STEM Sports Toys That Teach More Than Just the Game',
+    excerpt: 'Merge learning with athletics using these STEM toys that build skills in math, physics, and teamwork—all through sports',
+    date: 'September 12, 2025',
+    slug: '/blog/stem-sports-toys-that-teach-more-than-just-the-game'
+  },
   {id: 18,
     title: 'Mini Soccer Stars: Toys for Aspiring Young Athletes',
     excerpt: 'Gear up your little striker with soccer balls, goals, and skill-building toys perfect for young players just getting in the game.',
